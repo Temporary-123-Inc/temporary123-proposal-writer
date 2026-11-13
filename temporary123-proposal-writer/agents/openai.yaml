@@ -1,0 +1,6 @@
+interface:
+  display_name: "Temporary 123 Proposal Writer"
+  short_description: "Create Word proposals with cover letters and pricing"
+  default_prompt: "Use $temporary123-proposal-writer to read this opportunity link and create a complete Word proposal with a cover letter, using my price book, supporting documents, and relevant trailer images."
+policy:
+  allow_implicit_invocation: true

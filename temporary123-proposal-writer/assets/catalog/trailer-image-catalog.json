@@ -1,0 +1,1997 @@
+{
+  "snapshot_date": "2026-11-14",
+  "spreadsheet_id": "1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc/edit",
+  "sheet_id": 943101906,
+  "sheet_title": "List of Trailers",
+  "requested_range": "'List of Trailers'!A1:D1007",
+  "purpose": "Read-only equipment image-folder catalog; excludes all other workbook tabs.",
+  "scope": "Columns A through D of the designated trailer catalog only. Trailing empty rows omitted by provider.",
+  "properties": {
+    "sheetId": 943101906,
+    "title": "List of Trailers",
+    "index": 26,
+    "sheetType": "GRID",
+    "gridProperties": {
+      "rowCount": 1007,
+      "columnCount": 26,
+      "frozenRowCount": 1,
+      "frozenColumnCount": 1
+    }
+  },
+  "data": [
+    {
+      "rowData": [
+        {
+          "values": [
+            {
+              "formattedValue": "Equipment",
+              "userEnteredValue": {
+                "stringValue": "Equipment"
+              },
+              "effectiveValue": {
+                "stringValue": "Equipment"
+              }
+            },
+            {
+              "formattedValue": "Photos",
+              "userEnteredValue": {
+                "stringValue": "Photos"
+              },
+              "effectiveValue": {
+                "stringValue": "Photos"
+              }
+            },
+            {
+              "formattedValue": "Ehanced",
+              "userEnteredValue": {
+                "stringValue": "Ehanced"
+              },
+              "effectiveValue": {
+                "stringValue": "Ehanced"
+              }
+            },
+            {
+              "formattedValue": "Drive",
+              "userEnteredValue": {
+                "stringValue": "Drive"
+              },
+              "effectiveValue": {
+                "stringValue": "Drive"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "24ft Mobile Kitchen",
+              "userEnteredValue": {
+                "stringValue": "24ft Mobile Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "24ft Mobile Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1OunVHARHYsXf8RxLP02Kb0xsWSUMt2fm?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OunVHARHYsXf8RxLP02Kb0xsWSUMt2fm?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OunVHARHYsXf8RxLP02Kb0xsWSUMt2fm?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1OunVHARHYsXf8RxLP02Kb0xsWSUMt2fm?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "26ft baby bulk",
+              "userEnteredValue": {
+                "stringValue": "26ft baby bulk"
+              },
+              "effectiveValue": {
+                "stringValue": "26ft baby bulk"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/19lbb_y5qGJrTK0aJgmx_3fRasl5mCuUV?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/19lbb_y5qGJrTK0aJgmx_3fRasl5mCuUV?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/19lbb_y5qGJrTK0aJgmx_3fRasl5mCuUV?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/19lbb_y5qGJrTK0aJgmx_3fRasl5mCuUV?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "28ft Mobile Kitchen",
+              "userEnteredValue": {
+                "stringValue": "28ft Mobile Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "28ft Mobile Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1AB_bA26IZS2pycK5qY0IBtReI0fDwkHz?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1AB_bA26IZS2pycK5qY0IBtReI0fDwkHz?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1AB_bA26IZS2pycK5qY0IBtReI0fDwkHz?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1AB_bA26IZS2pycK5qY0IBtReI0fDwkHz?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "38ft Mobile Kitchen",
+              "userEnteredValue": {
+                "stringValue": "38ft Mobile Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "38ft Mobile Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1iJYe8zt5y5My9fqPkmMc6FkIxaRVkG5Z?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1iJYe8zt5y5My9fqPkmMc6FkIxaRVkG5Z?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1iJYe8zt5y5My9fqPkmMc6FkIxaRVkG5Z?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1iJYe8zt5y5My9fqPkmMc6FkIxaRVkG5Z?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "40ft Mobile Kitchen",
+              "userEnteredValue": {
+                "stringValue": "40ft Mobile Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "40ft Mobile Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1VDAuF9qooK4rG2BYCt4lA8slnjtf694i?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1VDAuF9qooK4rG2BYCt4lA8slnjtf694i?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1VDAuF9qooK4rG2BYCt4lA8slnjtf694i?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1VDAuF9qooK4rG2BYCt4lA8slnjtf694i?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "40ft Mobile Combo Kitchen",
+              "userEnteredValue": {
+                "stringValue": "40ft Mobile Combo Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "40ft Mobile Combo Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1yLoiVis9AZJmY0s1Y6npK9OY-S8lroZK?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1yLoiVis9AZJmY0s1Y6npK9OY-S8lroZK?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1yLoiVis9AZJmY0s1Y6npK9OY-S8lroZK?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1yLoiVis9AZJmY0s1Y6npK9OY-S8lroZK?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "40ft Bulk Kitchen",
+              "userEnteredValue": {
+                "stringValue": "40ft Bulk Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "40ft Bulk Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1iuO6hU_jQNl-ShmN0c4X1sXEatj7IqsH?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1iuO6hU_jQNl-ShmN0c4X1sXEatj7IqsH?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1iuO6hU_jQNl-ShmN0c4X1sXEatj7IqsH?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1iuO6hU_jQNl-ShmN0c4X1sXEatj7IqsH?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "40ft Bulk Combo Kitchen",
+              "userEnteredValue": {
+                "stringValue": "40ft Bulk Combo Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "40ft Bulk Combo Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/10J-NgwiQIjN8l6dNICitMuuYCe6RHVMF?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/10J-NgwiQIjN8l6dNICitMuuYCe6RHVMF?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/10J-NgwiQIjN8l6dNICitMuuYCe6RHVMF?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/10J-NgwiQIjN8l6dNICitMuuYCe6RHVMF?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Dishwashing Trailer",
+              "userEnteredValue": {
+                "stringValue": "Dishwashing Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Dishwashing Trailer"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "22-26ft Low Temp Dish Trailer (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "22-26ft Low Temp Dish Trailer (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "22-26ft Low Temp Dish Trailer (Tier 1-4)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1d5t5BT61At03TpjOz3RZ0sYCTaYA8LcV?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1d5t5BT61At03TpjOz3RZ0sYCTaYA8LcV?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1d5t5BT61At03TpjOz3RZ0sYCTaYA8LcV?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1d5t5BT61At03TpjOz3RZ0sYCTaYA8LcV?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "24ft Dish Trailer",
+              "userEnteredValue": {
+                "stringValue": "24ft Dish Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "24ft Dish Trailer"
+              }
+            },
+            {},
+            {},
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1tbnhRLd8CgE9gHZajWjqVjAxTTxV3gVf?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1tbnhRLd8CgE9gHZajWjqVjAxTTxV3gVf?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1tbnhRLd8CgE9gHZajWjqVjAxTTxV3gVf?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1tbnhRLd8CgE9gHZajWjqVjAxTTxV3gVf?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "30ft Conveyor Dishwashing Trailer",
+              "userEnteredValue": {
+                "stringValue": "30ft Conveyor Dishwashing Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "30ft Conveyor Dishwashing Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1vuLiQGv4kZglb45w4YEGTHIlW2Eh-lHV?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1vuLiQGv4kZglb45w4YEGTHIlW2Eh-lHV?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1vuLiQGv4kZglb45w4YEGTHIlW2Eh-lHV?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1vuLiQGv4kZglb45w4YEGTHIlW2Eh-lHV?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "38ft Low Temp Dish Trailer (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "38ft Low Temp Dish Trailer (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "38ft Low Temp Dish Trailer (Tier 1-4)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/14Hypf5WESWUWZm9gugr5nHRTqInQgIX9?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/14Hypf5WESWUWZm9gugr5nHRTqInQgIX9?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/14Hypf5WESWUWZm9gugr5nHRTqInQgIX9?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/14Hypf5WESWUWZm9gugr5nHRTqInQgIX9?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "38ft High Temp conveyor Dishwashing Trailer",
+              "userEnteredValue": {
+                "stringValue": "38ft High Temp conveyor Dishwashing Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "38ft High Temp conveyor Dishwashing Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1OC1mihPOFZoPGSekCneR_bDPqELywMTY?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OC1mihPOFZoPGSekCneR_bDPqELywMTY?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OC1mihPOFZoPGSekCneR_bDPqELywMTY?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1OC1mihPOFZoPGSekCneR_bDPqELywMTY?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Refrigerated Trailers & Containers",
+              "userEnteredValue": {
+                "stringValue": "Refrigerated Trailers & Containers"
+              },
+              "effectiveValue": {
+                "stringValue": "Refrigerated Trailers & Containers"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "12ft Refrigerated Trailer (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "12ft Refrigerated Trailer (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "12ft Refrigerated Trailer (Tier 1-4)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1EPB2fK_zP9oRG7kd65wqaPR5x4ab5N5C?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1EPB2fK_zP9oRG7kd65wqaPR5x4ab5N5C?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1EPB2fK_zP9oRG7kd65wqaPR5x4ab5N5C?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1EPB2fK_zP9oRG7kd65wqaPR5x4ab5N5C?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Refrigerated Trailer (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "20ft Refrigerated Trailer (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Refrigerated Trailer (Tier 1-4)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/11G3nczi2n2feLv5PX-rLegZAYXl3JsGu?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/11G3nczi2n2feLv5PX-rLegZAYXl3JsGu?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/11G3nczi2n2feLv5PX-rLegZAYXl3JsGu?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/11G3nczi2n2feLv5PX-rLegZAYXl3JsGu?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Refrigerated Container (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "20ft Refrigerated Container (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Refrigerated Container (Tier 1-4)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1PjH3vCljD5IvCKRbvzZDJZeFJPStFhcd?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1PjH3vCljD5IvCKRbvzZDJZeFJPStFhcd?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1PjH3vCljD5IvCKRbvzZDJZeFJPStFhcd?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1PjH3vCljD5IvCKRbvzZDJZeFJPStFhcd?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "24ft Refrigerated Container ",
+              "userEnteredValue": {
+                "stringValue": "24ft Refrigerated Container "
+              },
+              "effectiveValue": {
+                "stringValue": "24ft Refrigerated Container "
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/191r6TpDAhuyD_cpaR1mqF-sm9Q9Vb0ZR?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/191r6TpDAhuyD_cpaR1mqF-sm9Q9Vb0ZR?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/191r6TpDAhuyD_cpaR1mqF-sm9Q9Vb0ZR?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/191r6TpDAhuyD_cpaR1mqF-sm9Q9Vb0ZR?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "40ft Refrigerated Container (Tier 1-4)",
+              "userEnteredValue": {
+                "stringValue": "40ft Refrigerated Container (Tier 1-4)"
+              },
+              "effectiveValue": {
+                "stringValue": "40ft Refrigerated Container (Tier 1-4)"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Multifunctional Trailers",
+              "userEnteredValue": {
+                "stringValue": "Multifunctional Trailers"
+              },
+              "effectiveValue": {
+                "stringValue": "Multifunctional Trailers"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "38ft All Electric Kitchen",
+              "userEnteredValue": {
+                "stringValue": "38ft All Electric Kitchen"
+              },
+              "effectiveValue": {
+                "stringValue": "38ft All Electric Kitchen"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1oG0nbW0LmVSAA3dIpITr_Xv6w9OJnZCT?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1oG0nbW0LmVSAA3dIpITr_Xv6w9OJnZCT?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1oG0nbW0LmVSAA3dIpITr_Xv6w9OJnZCT?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1oG0nbW0LmVSAA3dIpITr_Xv6w9OJnZCT?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Office, Sleeper and Shower& Restroom Trailer",
+              "userEnteredValue": {
+                "stringValue": "Office, Sleeper and Shower& Restroom Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Office, Sleeper and Shower& Restroom Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1LHSk7akYhOYAr4hODK6JhaPpBGkAwuEm?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1LHSk7akYhOYAr4hODK6JhaPpBGkAwuEm?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1LHSk7akYhOYAr4hODK6JhaPpBGkAwuEm?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1LHSk7akYhOYAr4hODK6JhaPpBGkAwuEm?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Laundry Trailer",
+              "userEnteredValue": {
+                "stringValue": "Laundry Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Laundry Trailer"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "30ft Laundry Trailer (10 Washer/Dryer)",
+              "userEnteredValue": {
+                "stringValue": "30ft Laundry Trailer (10 Washer/Dryer)"
+              },
+              "effectiveValue": {
+                "stringValue": "30ft Laundry Trailer (10 Washer/Dryer)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1ZW_Rt-N95G51786zEzPp5hmGKMVQeygx?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1ZW_Rt-N95G51786zEzPp5hmGKMVQeygx?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1ZW_Rt-N95G51786zEzPp5hmGKMVQeygx?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1ZW_Rt-N95G51786zEzPp5hmGKMVQeygx?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "24ft Laundry Trailer",
+              "userEnteredValue": {
+                "stringValue": "24ft Laundry Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "24ft Laundry Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1pyL2FrAgEIBiCUqlSLT5gLF_DNNvKpgb?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1pyL2FrAgEIBiCUqlSLT5gLF_DNNvKpgb?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1pyL2FrAgEIBiCUqlSLT5gLF_DNNvKpgb?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1pyL2FrAgEIBiCUqlSLT5gLF_DNNvKpgb?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "26ft-27ft Laundry Trailer (8 Washer/Dryer)",
+              "userEnteredValue": {
+                "stringValue": "26ft-27ft Laundry Trailer (8 Washer/Dryer)"
+              },
+              "effectiveValue": {
+                "stringValue": "26ft-27ft Laundry Trailer (8 Washer/Dryer)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1MjW3a3k5tHbVBFco4GX7E_UPaqtAFp8r?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1MjW3a3k5tHbVBFco4GX7E_UPaqtAFp8r?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1MjW3a3k5tHbVBFco4GX7E_UPaqtAFp8r?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1MjW3a3k5tHbVBFco4GX7E_UPaqtAFp8r?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Laundry Container",
+              "userEnteredValue": {
+                "stringValue": "20ft Laundry Container"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Laundry Container"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1vQ4YVHz5H619Y1UqtX18vL0MQBiUHR73?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1vQ4YVHz5H619Y1UqtX18vL0MQBiUHR73?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1vQ4YVHz5H619Y1UqtX18vL0MQBiUHR73?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1vQ4YVHz5H619Y1UqtX18vL0MQBiUHR73?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Luxury Shower-Restroom Combination Trailer",
+              "userEnteredValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "13ft Luxury Shower-Restroom Combination Trailer (3 Individual Stalls)",
+              "userEnteredValue": {
+                "stringValue": "13ft Luxury Shower-Restroom Combination Trailer (3 Individual Stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "13ft Luxury Shower-Restroom Combination Trailer (3 Individual Stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1nNO_JMxe_juH8SOVSw9F-nzhXnZaBSsD?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1nNO_JMxe_juH8SOVSw9F-nzhXnZaBSsD?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1nNO_JMxe_juH8SOVSw9F-nzhXnZaBSsD?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1nNO_JMxe_juH8SOVSw9F-nzhXnZaBSsD?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "22ft Luxury Shower-Restroom Combination Trailer (6 Individual  Stalls)",
+              "userEnteredValue": {
+                "stringValue": "22ft Luxury Shower-Restroom Combination Trailer (6 Individual  Stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "22ft Luxury Shower-Restroom Combination Trailer (6 Individual  Stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/16UWOiaYctvfe3ozuLKmVcE6_gQHNC8WW?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/16UWOiaYctvfe3ozuLKmVcE6_gQHNC8WW?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/16UWOiaYctvfe3ozuLKmVcE6_gQHNC8WW?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/16UWOiaYctvfe3ozuLKmVcE6_gQHNC8WW?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "30ft Luxury Shower-Restroom Combination Trailer (8 Individual  Stalls)",
+              "userEnteredValue": {
+                "stringValue": "30ft Luxury Shower-Restroom Combination Trailer (8 Individual  Stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "30ft Luxury Shower-Restroom Combination Trailer (8 Individual  Stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1OEk_GG66gYVgBH6ZS-u30-Kb4V0Gy4RG?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OEk_GG66gYVgBH6ZS-u30-Kb4V0Gy4RG?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1OEk_GG66gYVgBH6ZS-u30-Kb4V0Gy4RG?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1OEk_GG66gYVgBH6ZS-u30-Kb4V0Gy4RG?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "30ft Luxury Shower-Restroom Combination Trailer (10 Individual Stalls)",
+              "userEnteredValue": {
+                "stringValue": "30ft Luxury Shower-Restroom Combination Trailer (10 Individual Stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "30ft Luxury Shower-Restroom Combination Trailer (10 Individual Stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/174crBJXxkd6Dyl5_Or3mHtU9tEv_0C2J?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/174crBJXxkd6Dyl5_Or3mHtU9tEv_0C2J?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/174crBJXxkd6Dyl5_Or3mHtU9tEv_0C2J?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/174crBJXxkd6Dyl5_Or3mHtU9tEv_0C2J?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Luxury Shower-Restroom Combination Trailer (3 Individual Stalls + 1 ADA)",
+              "userEnteredValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer (3 Individual Stalls + 1 ADA)"
+              },
+              "effectiveValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer (3 Individual Stalls + 1 ADA)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1KgIE2kYjJV6DnCvxp3UXN_50Qc8HH2HF?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1KgIE2kYjJV6DnCvxp3UXN_50Qc8HH2HF?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1KgIE2kYjJV6DnCvxp3UXN_50Qc8HH2HF?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1KgIE2kYjJV6DnCvxp3UXN_50Qc8HH2HF?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Luxury Shower-Restroom Combination Trailer (8 Stalls Individual  + 1 ADA)",
+              "userEnteredValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer (8 Stalls Individual  + 1 ADA)"
+              },
+              "effectiveValue": {
+                "stringValue": "Luxury Shower-Restroom Combination Trailer (8 Stalls Individual  + 1 ADA)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": " https://drive.google.com/drive/folders/16vNik3XCIkISSGjDiy_BI54j2ajmA5bs?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": " https://drive.google.com/drive/folders/16vNik3XCIkISSGjDiy_BI54j2ajmA5bs?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": " https://drive.google.com/drive/folders/16vNik3XCIkISSGjDiy_BI54j2ajmA5bs?usp=drive_link"
+              },
+              "textFormatRuns": [
+                {},
+                {
+                  "startIndex": 1,
+                  "format": {
+                    "foregroundColor": {
+                      "red": 0.06666667,
+                      "green": 0.33333334,
+                      "blue": 0.8
+                    },
+                    "underline": true,
+                    "foregroundColorStyle": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    },
+                    "link": {
+                      "uri": "https://drive.google.com/drive/folders/16vNik3XCIkISSGjDiy_BI54j2ajmA5bs?usp=drive_link"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Restroom Trailer",
+              "userEnteredValue": {
+                "stringValue": "Restroom Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Restroom Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1urVsllbGMhX-IyybufdG0bbcDqah--kz?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1urVsllbGMhX-IyybufdG0bbcDqah--kz?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1urVsllbGMhX-IyybufdG0bbcDqah--kz?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1urVsllbGMhX-IyybufdG0bbcDqah--kz?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Shower Container",
+              "userEnteredValue": {
+                "stringValue": "Shower Container"
+              },
+              "effectiveValue": {
+                "stringValue": "Shower Container"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Shower Container (5 Individual Stalls)",
+              "userEnteredValue": {
+                "stringValue": "20ft Shower Container (5 Individual Stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Shower Container (5 Individual Stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1-VGExIftnJBBWPzROjPsTKJYrwTsG04A",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1-VGExIftnJBBWPzROjPsTKJYrwTsG04A"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1-VGExIftnJBBWPzROjPsTKJYrwTsG04A"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1-VGExIftnJBBWPzROjPsTKJYrwTsG04A"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20 ft Shower Trailer (5-10 individual Stalls) with Handwashing Sink",
+              "userEnteredValue": {
+                "stringValue": "20 ft Shower Trailer (5-10 individual Stalls) with Handwashing Sink"
+              },
+              "effectiveValue": {
+                "stringValue": "20 ft Shower Trailer (5-10 individual Stalls) with Handwashing Sink"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1TA8ENLNE1mI3st1uVPsnQUgluxQVAbrq?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1TA8ENLNE1mI3st1uVPsnQUgluxQVAbrq?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1TA8ENLNE1mI3st1uVPsnQUgluxQVAbrq?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1TA8ENLNE1mI3st1uVPsnQUgluxQVAbrq?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Sleeper Container (2 individual stalls)",
+              "userEnteredValue": {
+                "stringValue": "Sleeper Container (2 individual stalls)"
+              },
+              "effectiveValue": {
+                "stringValue": "Sleeper Container (2 individual stalls)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1qjo6lh6faMeZcFNM3MauAK6EDHuUi3xx?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1qjo6lh6faMeZcFNM3MauAK6EDHuUi3xx?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1qjo6lh6faMeZcFNM3MauAK6EDHuUi3xx?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1qjo6lh6faMeZcFNM3MauAK6EDHuUi3xx?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Accommodation (Contractor)",
+              "userEnteredValue": {
+                "stringValue": "20ft Accommodation (Contractor)"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Accommodation (Contractor)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1ksyR1mp7c9bFFmjUD0g7wxdLemBxY8HF?usp=sharing",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1ksyR1mp7c9bFFmjUD0g7wxdLemBxY8HF?usp=sharing"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1ksyR1mp7c9bFFmjUD0g7wxdLemBxY8HF?usp=sharing"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1ksyR1mp7c9bFFmjUD0g7wxdLemBxY8HF?usp=sharing"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "20ft Accommodation (VIP)",
+              "userEnteredValue": {
+                "stringValue": "20ft Accommodation (VIP)"
+              },
+              "effectiveValue": {
+                "stringValue": "20ft Accommodation (VIP)"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1v2vN0f8t-kTbRcpsHyhM3_nLmGjbtY-p?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1v2vN0f8t-kTbRcpsHyhM3_nLmGjbtY-p?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1v2vN0f8t-kTbRcpsHyhM3_nLmGjbtY-p?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1v2vN0f8t-kTbRcpsHyhM3_nLmGjbtY-p?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Handwashing Sink Trailer",
+              "userEnteredValue": {
+                "stringValue": "Handwashing Sink Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Handwashing Sink Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1wg4v4hKjvDyJNWmnTbYCg2UBgNL4gVxc?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1wg4v4hKjvDyJNWmnTbYCg2UBgNL4gVxc?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1wg4v4hKjvDyJNWmnTbYCg2UBgNL4gVxc?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1wg4v4hKjvDyJNWmnTbYCg2UBgNL4gVxc?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Water Tank",
+              "userEnteredValue": {
+                "stringValue": "Water Tank"
+              },
+              "effectiveValue": {
+                "stringValue": "Water Tank"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1i8LIu0PYWFmSEsOzzuvXx163aXmAK4mG?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1i8LIu0PYWFmSEsOzzuvXx163aXmAK4mG?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1i8LIu0PYWFmSEsOzzuvXx163aXmAK4mG?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1i8LIu0PYWFmSEsOzzuvXx163aXmAK4mG?usp=drive_link"
+            }
+          ]
+        },
+        {},
+        {
+          "values": [
+            {
+              "formattedValue": "Additional Photos",
+              "userEnteredValue": {
+                "stringValue": "Additional Photos"
+              },
+              "effectiveValue": {
+                "stringValue": "Additional Photos"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Generator Trailer",
+              "userEnteredValue": {
+                "stringValue": "Generator Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Generator Trailer"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1_3KtreQoJqtvu2ZyPErPYFEB0-QAAhb7?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1_3KtreQoJqtvu2ZyPErPYFEB0-QAAhb7?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1_3KtreQoJqtvu2ZyPErPYFEB0-QAAhb7?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1_3KtreQoJqtvu2ZyPErPYFEB0-QAAhb7?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Temporary Sleeping Facilities",
+              "userEnteredValue": {
+                "stringValue": "Temporary Sleeping Facilities"
+              },
+              "effectiveValue": {
+                "stringValue": "Temporary Sleeping Facilities"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1_84fTXj7zV7qvVxi6g-GYHU9wa92Img8?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1_84fTXj7zV7qvVxi6g-GYHU9wa92Img8?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1_84fTXj7zV7qvVxi6g-GYHU9wa92Img8?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1_84fTXj7zV7qvVxi6g-GYHU9wa92Img8?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Ramps",
+              "userEnteredValue": {
+                "stringValue": "Ramps"
+              },
+              "effectiveValue": {
+                "stringValue": "Ramps"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1QwS9FKbTGPc8T6EjUcBxtk18Nn8SU1z_?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1QwS9FKbTGPc8T6EjUcBxtk18Nn8SU1z_?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1QwS9FKbTGPc8T6EjUcBxtk18Nn8SU1z_?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1QwS9FKbTGPc8T6EjUcBxtk18Nn8SU1z_?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Bladder Bag",
+              "userEnteredValue": {
+                "stringValue": "Bladder Bag"
+              },
+              "effectiveValue": {
+                "stringValue": "Bladder Bag"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1kCelvT3JeF0zI-JBmNoc2mzHnUWlOhYY?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1kCelvT3JeF0zI-JBmNoc2mzHnUWlOhYY?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1kCelvT3JeF0zI-JBmNoc2mzHnUWlOhYY?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1kCelvT3JeF0zI-JBmNoc2mzHnUWlOhYY?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "dining hall",
+              "userEnteredValue": {
+                "stringValue": "dining hall"
+              },
+              "effectiveValue": {
+                "stringValue": "dining hall"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/11edjb6C7er5CbOTP0gmtWr1gPsuh-ML3?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/11edjb6C7er5CbOTP0gmtWr1gPsuh-ML3?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/11edjb6C7er5CbOTP0gmtWr1gPsuh-ML3?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/11edjb6C7er5CbOTP0gmtWr1gPsuh-ML3?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Stairs",
+              "userEnteredValue": {
+                "stringValue": "Stairs"
+              },
+              "effectiveValue": {
+                "stringValue": "Stairs"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1Jzzy1itrvW70MZ9GIx6YYWXjH-mvuvSg?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1Jzzy1itrvW70MZ9GIx6YYWXjH-mvuvSg?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1Jzzy1itrvW70MZ9GIx6YYWXjH-mvuvSg?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1Jzzy1itrvW70MZ9GIx6YYWXjH-mvuvSg?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Surveilance Trailer",
+              "userEnteredValue": {
+                "stringValue": "Surveilance Trailer"
+              },
+              "effectiveValue": {
+                "stringValue": "Surveilance Trailer"
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "formattedValue": "Basecamp, Mancamp, and workforce ",
+              "userEnteredValue": {
+                "stringValue": "Basecamp, Mancamp, and workforce "
+              },
+              "effectiveValue": {
+                "stringValue": "Basecamp, Mancamp, and workforce "
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "Yes",
+              "userEnteredValue": {
+                "stringValue": "Yes"
+              },
+              "effectiveValue": {
+                "stringValue": "Yes"
+              }
+            },
+            {
+              "formattedValue": "https://drive.google.com/drive/folders/1c3n2U6u5W4XPqzUVjhzAL__FBJaTyorZ?usp=drive_link",
+              "userEnteredValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1c3n2U6u5W4XPqzUVjhzAL__FBJaTyorZ?usp=drive_link"
+              },
+              "effectiveValue": {
+                "stringValue": "https://drive.google.com/drive/folders/1c3n2U6u5W4XPqzUVjhzAL__FBJaTyorZ?usp=drive_link"
+              },
+              "hyperlink": "https://drive.google.com/drive/folders/1c3n2U6u5W4XPqzUVjhzAL__FBJaTyorZ?usp=drive_link"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

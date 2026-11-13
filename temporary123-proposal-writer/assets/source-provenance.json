@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-11-14",
+  "skill": "temporary123-proposal-writer",
+  "company_sources": {
+    "capability": {
+      "asset": "company/temporary123-capability-statement.pdf",
+      "file_id": "1nBnaWsYXgLhsLgts4nWNoaURwt6oejNJ",
+      "url": "https://drive.google.com/file/d/1nBnaWsYXgLhsLgts4nWNoaURwt6oejNJ/view?usp=drivesdk",
+      "modified_time": "2026-11-09T20:24:49.395Z",
+      "mime_type": "application/pdf"
+    },
+    "corporate_certificate": {
+      "asset": "company/certificate-of-status-2024-03-27.pdf",
+      "file_id": "14llul5EtEhGCI15b62ox4XQD8kENiILt",
+      "url": "https://drive.google.com/file/d/14llul5EtEhGCI15b62ox4XQD8kENiILt/view?usp=drivesdk",
+      "modified_time": "2026-07-21T20:12:06.000Z",
+      "mime_type": "application/pdf",
+      "limitation": "Historical certificate dated March 27, 2024; does not establish current licensing or good standing."
+    }
+  },
+  "original_pricebook": {
+    "asset": "temporary123-rental-price-book.pdf",
+    "original_filename": "Temporary123_Rental_Price_Book (6).pdf",
+    "sha256": "93C213EB9B3A01EDFD95811B46F77CAFC4E17A2F2E8D4B7BEDABD6FA84BCC205",
+    "state": "Unchanged original, all15pages. Effective pricing date not established."
+  },
+  "style_sources": {
+    "original_style_url": "https://docs.google.com/document/d/1rG5FWpSKjbR6IkqA11jhGdmRs_BpE-Ac4OQ7bB4EYzQ/edit",
+    "word_source_file_id": "1ySbAfUtMlLk-7sncLW1n_bEjueUh6q3X",
+    "assets": [
+      "source-proposal.docx",
+      "reference-export.pdf",
+      "reference.png"
+    ],
+    "purpose": "Read-only style/cover-letter reference; not current company proof or an executed new bid."
+  },
+  "catalog": {
+    "asset": "catalog/trailer-image-catalog.json",
+    "spreadsheet_id": "1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc",
+    "sheet_id": 943101906,
+    "sheet_title": "List of Trailers",
+    "requested_range": "'List of Trailers'!A1:D1007",
+    "returned_rows": 55,
+    "scope": "Only the designated trailer tab A-D; all other workbooktabs excluded."
+  },
+  "images": [
+    {
+      "asset": "images/restroom-sink-interior.png",
+      "source_file_id": "1r5-6USyN0FBE0vOtHLJoMCIh4BklsQYQ",
+      "source_folder": "1urVsllbGMhX-IyybufdG0bbcDqah--kz",
+      "catalog_row": 37,
+      "purpose": "Unchanged representative restroom image; not proof of offered model/specifications."
+    },
+    {
+      "asset": "images/restroom-urinal-interior.png",
+      "source_file_id": "1wEwo4WrwxIMkUwS9--yN9ad12T-XIue6",
+      "source_folder": "1urVsllbGMhX-IyybufdG0bbcDqah--kz",
+      "catalog_row": 37,
+      "purpose": "Unchanged representative restroom image; not proof of offered model/specifications."
+    }
+  ],
+  "access_requirements": "Live solicitation and private Drive/Sheets refreshes require authorized tools/access. No credentials bundled.",
+  "exclusions": [
+    "Generated proposal drafts",
+    "Solicitation-specific bid packets",
+    "Tax and bank forms",
+    "Credentials/tokens/signed download URLs",
+    "Other spreadsheet tabs",
+    "Scratch files, test fixtures and unrelated projects"
+  ],
+  "bundled_asset_sha256": {
+    "catalog/trailer-image-catalog.json": "5f3e817e8e5b2f89075cac40becb887357c69761607dabf7456688ca1b42bedd",
+    "company/certificate-of-status-2024-03-27.pdf": "de94acb3b33f804c5a583743f6b8fcc4293dbd2b79548a9b224f4b3590e09496",
+    "company/temporary123-capability-statement.pdf": "f12d2a495a059e0c24586a993c5b7d72c4f3a7b5de77962d123420d4ebac9f23",
+    "images/restroom-sink-interior.png": "068d2b105ce1ba9f67e79021c218da68442d5755d77c44b7f578b911e6d4cde9",
+    "images/restroom-urinal-interior.png": "a2cf4e17f7f49c03e7f7ffdb4b2907bd9485a2698893c2f9674df3937f3e9552",
+    "reference-export.pdf": "a49c79efbb1b5b9219e1285bf9f901eadf850deb7b878e7942fced62107b6116",
+    "reference.png": "e1a73d22fbb497fd21a57dbecbe8f42b20a950169d1a271d7488e4ca9a578775",
+    "rental-price-book.txt": "0efa2f90422633507fdce50a61ddf567df4173d412d87284f0251b2f0c8c7822",
+    "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8",
+    "temporary123-rental-price-book.pdf": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205"
+  }
+}
