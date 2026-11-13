@@ -22,9 +22,11 @@ Extract the legal name, address, contacts, source-supported titles, relevant ide
 
 ## 3. Match equipment/specifications
 
-Read the applicable equipment descriptions in the [price-book PDF](../assets/rental-price-book-reading-copy.pdf) and [searchable page-indexed text](../assets/rental-price-book.txt), the [catalog](https://docs.google.com/spreadsheets/d/1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc/edit?gid=943101906#gid=943101906), and the matching equipment folder linked in its row. Use the [catalog-reading instructions](trailer-images.md) and [provenance record](../assets/source-provenance.json) to interpret these resources. Read buyer specifications from step 1 alongside them.
+Read the [product-selection process](product-selection.md), applicable equipment descriptions in the [price-book PDF](../assets/rental-price-book-reading-copy.pdf) and [searchable page-indexed text](../assets/rental-price-book.txt), the [catalog](https://docs.google.com/spreadsheets/d/1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc/edit?gid=943101906#gid=943101906), and the matching equipment folder linked in its row. Use the [catalog-reading instructions](trailer-images.md) and [provenance record](../assets/source-provenance.json) to interpret these resources. Read buyer specifications from step 1 alongside them.
 
 Compare required versus supported offered family, model/configuration, quantity, fixtures/stalls/beds, capacity, dimensions, accessibility, power/water/waste, footprint and accessories. Record the actual page and catalog row/folder used. A catalog category, image, price or larger model does not establish exact specifications, availability or buyer acceptance. Ask early for required unresolved model details or substitution evidence.
+
+If there is no exact match, show actual supported substitute options and one provisional recommendation; for multiple required units/products, compare repeated-unit or mixed-product packages where useful. Use the linked selection process to quantify coverage, differences and supported proposed values, then ask the human proposal writer/user to choose early unless the current-project selection is already supplied or explicitly delegated. Keep the option table outside the buyer Word file unless required/approved as formal alternates; continue independent work while the selection is pending.
 
 ## 4. Plan service/logistics/technical approach
 
@@ -34,9 +36,11 @@ Extract the supported deployment sequence, contractor/buyer responsibilities, tr
 
 ## 5. Apply pricing
 
-Read and apply the [pricing rules](pricing-rules.md), applicable pages/qualifications in the [price-book PDF](../assets/rental-price-book-reading-copy.pdf) and [searchable text](../assets/rental-price-book.txt), the buyer's pricing form, and any current user-approved quote/instructions for this project. Use the [provenance record](../assets/source-provenance.json) when distinguishing the bundled reading copy from a newer source.
+Read and apply the [pricing rules](pricing-rules.md), [option/package value rules](product-selection.md#proposed-value-and-billing-basis) when comparing alternatives, applicable pages/qualifications in the [price-book PDF](../assets/rental-price-book-reading-copy.pdf) and [searchable text](../assets/rental-price-book.txt), the buyer's pricing form, and any current user-approved quote/instructions for this project. Use the [provenance record](../assets/source-provenance.json) when distinguishing the bundled reading copy from a newer source.
 
 Populate matching supported rates automatically and calculate quantities/extensions with decimal arithmetic. Record source page/item, billing unit, included scope, qualifying term and project-specific overrides. Resolve required missing billing basis, coverage, conversion or optional-period treatment early. Do not import a historical project's quote as a global default, put zero for an unknown, hide missing costs or silently place a per-visit figure in a monthly field.
+
+Price each defensible candidate on its own supported mix and quantities while a choice is needed; distinguish rental, service and logistics, compatible-period subtotals and unknown components. A provisional recommendation is not the final equipment plan: obtain the user's choice, explicit selection delegation or explicit incomplete-draft direction before final delivery, and preserve any outstanding buyer-acceptance requirement.
 
 ## 6. Select past performance
 

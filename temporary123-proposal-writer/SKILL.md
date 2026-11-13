@@ -32,13 +32,15 @@ After checking those sources, ask consolidated questions **early** for informati
 
 ## Equipment and pricing rules
 
+Read [references/product-selection.md](references/product-selection.md) when there is no exact product match or several products/units must be combined. Compare real supported catalog options, recommend one provisionally with a reason, show supported proposed values and ask the human proposal writer/user to choose early before finalizing an unresolved equipment plan. Reuse an existing current-project selection or explicit selection delegation without asking again. Keep the option table in chat/working notes unless formal alternates are required or approved.
+
 Apply [references/pricing-rules.md](references/pricing-rules.md) using this authority order: current user-approved project quote/instructions, then matching price-book rates. Ask for any unsupported component required by this proposal after checking its sources. Mark it in working notes while waiting, not as a substitute for obtaining the answer. Keep required buyer scope separate from evidence of the company's capability.
 
 Match equipment family, size, stall/bed count, accessibility, features, included service, billing period and qualifying term before applying a rate. Fill supported rates and calculate supported extensions. Do not make the entire price schedule TBD because one component is missing. Do not enter zero for unknowns or invent daily proration, taxes, renewal escalation, discounts, service frequency or all-inclusive cost coverage.
 
 When the user provides a rate, establish its unit: per visit, day, week, month, equipment unit or event. Every two weeks is not twice per month. If the buyer requires a monthly price and the user quotes per visit, explain the conversion and obtain an approved fixed monthly rate before filling that field. Continue independent drafting while a necessary pricing answer is pending. Use decimal arithmetic and round currency intentionally.
 
-If available equipment differs from the specification, describe the offered configuration accurately, compare the difference with the buyer's requirement and flag written buyer clarification when needed. Do not call a substitution accepted, compliant or equivalent without evidence. Check remaining tank, electrical, fixture, accessibility and site requirements separately. A user-approved price does not prove the model meets them.
+If sourced equipment differs from the specification, follow the product-selection process before finalizing the offering. After selection, describe the actual configuration and differences accurately and flag written buyer clarification when needed. Do not call a substitution accepted, compliant or equivalent without evidence. Check remaining tank, electrical, fixture, accessibility and site requirements separately. A user-approved choice or price does not prove the model meets them or establish buyer acceptance.
 
 Past project approvals apply only to that project. In particular, the Texas example in the pricing reference is not a global rate or fleet default.
 

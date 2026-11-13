@@ -26,7 +26,7 @@ Explain the proposed conversion and its visit-count basis, and obtain a monthly-
 
 Use exact mandatory rows, units, periods and order. Include all costs required by the buyer; do not add transport/setup surcharges outside an all-inclusive schedule. Known logistics components can remain internal costing inputs until their treatment is approved. Do not amortize them over an assumed award date or guaranteed rental term.
 
-Follow buyer rules on alternatives, qualifications and exceptions. If company inventory differs, draft the actual offering, flag the mismatch, and identify the required written clarification. Do not change the buyer's stated requirement or claim acceptance because the offered unit is larger. A unit's image or user-approved rental amount does not establish electrical rating, tank capacity, fixtures, new/unused condition or availability.
+Follow buyer rules on alternatives, qualifications and exceptions. If there is no exact product match or a choice of product combinations is needed, use the [product-selection process](product-selection.md) to compare supported options and proposed values, recommend provisionally and ask the user to choose before finalizing the offering unless the current-project choice is already supplied or explicitly delegated. After selection, disclose the actual offering's differences and identify any required written buyer clarification. Do not change the buyer's stated requirement or claim acceptance because the offered unit is larger. A unit's image, user choice or approved rental amount does not establish electrical rating, tank capacity, fixtures, new/unused condition or availability.
 
 ## Historical worked decision — not a future default
 
