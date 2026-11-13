@@ -2,6 +2,8 @@
 
 Use this process when requested equipment has no exact supported product match, or several required products/units need a meaningful package choice. An exact, supported current-project selection can proceed without a redundant choice question. Use choices the human proposal writer/user has already made for this project; historical choices are not fleet or pricing defaults.
 
+If one exact supported product meets the whole scope and no alternative comparison or unresolved equipment choice is requested, use the normal matching process without forcing a package comparison. If the scope actually needs multiple units/types, compare useful packages unless the user has already chosen or delegated the mix; an exact model within a package does not remove that package decision.
+
 ## Read requirements and real product evidence
 
 Read the current solicitation's functional requirements and alternatives policy, the [company/source guide](sources-and-company.md), applicable descriptions/qualifications in the [price-book PDF](../assets/rental-price-book-reading-copy.pdf) and [searchable text](../assets/rental-price-book.txt), and matching rows in the [actual trailer catalog](https://docs.google.com/spreadsheets/d/1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc/edit?gid=943101906#gid=943101906). Open relevant linked equipment folders using the [catalog-reading instructions](trailer-images.md); empty search results require direct folder browsing. Read [pricing rules](pricing-rules.md) before valuing a candidate.
