@@ -2,6 +2,8 @@
 
 Use this branch during [workflow step 3](proposal-workflow.md) when a requested product has no exact supported catalog match, or the scope needs multiple units or different product types. Price the options using step 5. Keep using the existing product and pricing libraries; this reference adds a selection method, not a second catalog or new default rates. An exact supported single-product match does not need an extra selection question.
 
+If one exact supported product meets the whole scope and no alternative comparison or unresolved equipment choice is requested, use the normal matching process without forcing a package comparison. If the scope actually needs multiple units/types, compare useful packages unless the user has already chosen or delegated the mix; an exact model within a package does not remove that package decision.
+
 ## 1. Establish the need and catalog evidence
 
 Read the current scope and separate explicit requirements from preferences: function, quantity/capacity, configuration, accessibility, utilities, footprint/access, dates, service and any limits on alternatives. Do not change an exact requirement into a minimum without evidence. Ask for an ambiguity only when it affects the choice.
