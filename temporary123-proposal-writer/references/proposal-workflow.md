@@ -6,7 +6,7 @@ Before a step uses facts, read the applicable linked resource content, not just 
 
 Ask consolidated, current-scope questions early when required information remains missing, conflicting or inadequate after the relevant source check. Do not wait for step 9. Do not ask a standard project questionnaire or re-ask known facts. Continue independent work while waiting; before final delivery, obtain required answers or explicit instruction to deliver an incomplete draft. Silence is not approval to guess. Ordinary unsigned execution lines may remain blank.
 
-Maintain the source-status table from the first pass. Show a compact version in chat after the initial opportunity/library source pass and update it at delivery, outside the client Word file. Do not delay the first useful status report until every source has been checked. Step 9 reviews the live table; it does not start it.
+Maintain the source-status table from the first pass. Show a compact version in chat after the initial opportunity/library source pass and update it within **Readiness** in the [four-part delivery report](delivery-report.md), outside the client Word file. Do not delay the first useful status report until every source has been checked. Step 9 reviews the live table; it does not start it.
 
 ## 1. Read opportunity & attachments
 
@@ -68,7 +68,7 @@ Determine what is needed with the bid, upon request, at execution or after award
 
 ## 9. Review resource table & resolve questions
 
-Review and update the table already maintained since the initial source pass. Use these exact columns in chat:
+Review and update the table already maintained since the initial source pass. Use these exact columns in chat; at final delivery place it within **Readiness** (or link to it there), not in a fifth main section:
 
 | Step | Source actually used (link) | Status | Missing info / next action |
 |---|---|---|---|
@@ -89,6 +89,10 @@ Write substantive project-specific prose, a personalized cover letter in the sam
 
 ## 11. Verify & deliver
 
-Read the [verification and delivery instructions](word-workflow.md), [final writing review](proposal-blueprint.md#final-writing-review) and the current resource table. Use [inspect_proposal.py](../scripts/inspect_proposal.py) for structural checks and [render_proposal.py](../scripts/render_proposal.py) with a permitted headless renderer or an authorized current-document PDF export. Inspect every rendered page and correct layout/navigation defects.
+Read the [verification and delivery instructions](word-workflow.md), [delivery report rules](delivery-report.md), [final writing review](proposal-blueprint.md#final-writing-review) and the current resource table. Use [inspect_proposal.py](../scripts/inspect_proposal.py) for structural checks and [render_proposal.py](../scripts/render_proposal.py) with a permitted headless renderer or an authorized current-document PDF export. Inspect every rendered page and correct layout/navigation defects. Audit all remaining placeholders and unfinished required information against this exact final render, including every occurrence/page in cover/body, tables, headers/footers, text boxes and content controls, and implicit missing values, signatures or attachments. The structural inspector alone is not this complete audit; never guess page numbers from DOCX paragraph order.
 
-Check source-supported claims, scope/configuration, service interval, arithmetic, mandatory forms, resolved required answers, normal unsigned execution lines, cover letter, file integrity and final pagination. If rendering is unavailable, report that narrow verification limitation honestly; never take over desktop apps or claim a visual pass. Deliver the actual Word file and the updated compact source-status table in chat, with only real remaining actions or explicitly authorized incomplete-draft limitations. Do not include the table, source logs or internal completion checklist in the client Word document. No submission, signature, outreach or source-sharing change is authorized.
+Check source-supported claims, scope/configuration, service interval, arithmetic, mandatory forms, resolved required answers, normal unsigned execution lines, cover letter, file integrity and final pagination. If rendering is unavailable, mark affected pages unverified, explain the limitation and reduce readiness; never take over desktop apps or claim a visual pass. The final report does not replace early questions or permit delivery with unanswered required inputs without explicit incomplete-draft direction.
+
+Save/upload the final `.docx` as a stored Word file, without conversion, and use the user's standing authorization to set **Anyone with the link — Viewer/read-only** for this generated proposal output only. Verify actual file URL, Word MIME type and permission. Company/domain sharing is insufficient; try an available authorized public-permission/browser capability and report any failure honestly without claiming public access. Do not change source/folder/inventory/tax/repository sharing.
+
+Deliver exactly four main labels: **Link**, **What to update**, **Readiness**, and **Winning chances and improvements**, following the shared report. Include every placeholder/unfinished required item with exact final page(s), section and needed action; explain the 1–100% submission-readiness estimate and blockers; put the updated source-status table inside **Readiness** or link to it there. Assess winning prospects separately against the actual evaluation method and evidenced constraints, with a broad conditional numeric range only if defensible, otherwise qualitative/not reliably quantifiable. Keep the report/table/source logs outside the client Word document. No bid submission, signature, outreach or source-sharing change is authorized.
