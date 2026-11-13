@@ -33,4 +33,4 @@ The user-designated catalog's row 37, `Restroom Trailer`, linked to `Restroom On
 
 Use them only for relevant restroom proposals, with qualified captions. They do not establish two/three-stall layout, ADA status, tank sizes, electrical load or offered model. Refresh the live catalog when accessible; these are not universal images for kitchen, laundry, berthing or shower-only projects.
 
-Record catalog row, equipment label, source folder/file ID, selected asset and caption qualification in working notes outside the buyer-facing proposal. If no suitable accessible image exists, finish without it and identify that gap.
+Record catalog row, equipment label, source folder/file ID, selected asset and caption qualification in working notes outside the buyer-facing proposal. If no suitable optional image exists, finish without it and note that gap separately. If the buyer requires an image or drawing, ask after source checks and obtain the required input or explicit instruction to deliver an incomplete draft before delivery.

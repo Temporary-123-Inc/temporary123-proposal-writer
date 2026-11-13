@@ -2,10 +2,12 @@
 
 Use the supplied price book and latest user-approved project directions. A source amount becomes a bid rate only after equipment, included scope and billing units match. A buyer's estimated contract value is not the vendor's price, revenue or budget authorization.
 
+Read and apply these rules before drafting the price response. Populate matching supported rates and approved project decisions automatically. After checking the relevant source pages and quote records, ask early for any missing or conflicting price, billing basis, cost coverage or optional-period decision required by this proposal. Do not use a standard pricing questionnaire or ask about items outside its scope. Pending figures may be tracked internally while independent drafting continues; required unanswered pricing needs a user answer or explicit instruction to deliver an incomplete draft, never silence-based approval.
+
 ## Preserve billing units and scope
 
 1. Record source page/item, version, price, billing period, exact model/configuration, included service and any qualifying term in working notes. Record user-approved overrides with their project and scope.
-2. Calculate with `Decimal` and an intentional two-decimal rounding rule. Show equipment quantities, billing units and extensions. Keep incomplete totals marked rather than hiding missing costs.
+2. Calculate with `Decimal` and an intentional two-decimal rounding rule. Show equipment quantities, billing units and extensions. Track incomplete totals in working notes while obtaining the required answer; show them in a delivered document only when the user explicitly requests an incomplete draft. Never hide missing costs.
 3. Event rates cover **1–3 days** and are stated as 20% below weekly rates. Use published event amounts. Do not multiply an event amount as though it were a daily rate or invent monthly proration/standard month length.
 4. Pages 7–8 portable-toilet/handwash amounts have unconfirmed billing periods and/or service scopes; some are estimates. They do not automatically establish monthly rental with weekly servicing.
 5. A three-stall shower/restroom combination does not establish the rate or specifications of a restroom-only three-stall trailer. An accessible portable toilet or differently configured accessible combination does not establish an accessible three-stall luxury trailer. Keep stall counts, layout, toilet/shower functions and accessibility distinct.

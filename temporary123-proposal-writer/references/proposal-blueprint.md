@@ -4,11 +4,11 @@ This is a drafting guide derived from the user's original Temporary 123 proposal
 
 ## Cover letter
 
-Include editable project/title information and a personalized business letter in the same Word document before the contents/body. Use a submission date placeholder when not supplied, the actual buyer's recipient block and a matching salutation. Follow this flow:
+Include editable project/title information and a personalized business letter in the same Word document before the contents/body. Use the appropriate current draft date or a supplied submission date, the actual buyer's recipient block and a matching salutation. Do not invent a planned submission date; ordinary unsigned execution-date lines may remain blank. Follow this flow:
 
 1. State Temporary 123's response to the exact solicitation, requested service, location and supported performance term.
 2. Explain the proposed equipment and service arrangement in plain operational terms. Connect supported experience to this buyer's needs without importing blanket certifications or response times.
-3. Identify the proposal's technical, pricing and documentation coverage. Keep actual model deviations accurate; distinguish draft confirmation fields from commitments already supported.
+3. Identify the proposal's technical, pricing and documentation coverage. Keep actual model deviations accurate and use supported commitments. Unresolved required facts must follow the question and delivery gate, including in the cover letter.
 4. Close with the verified contact and one unsigned authorized-signatory block. Do not reuse a signature image or invent the signatory's current title/authority.
 
 Aim for roughly one page. Use the letter as the opening overview instead of repeating an executive summary. The old source had a mismatched salutation, duplicated signatory, email typo and outdated project details; correct them rather than copying them.
@@ -21,7 +21,7 @@ For a multi-section document, use Word headings, electronic bookmarks and a cont
 
 Explain relevant service lines, supported customers, geographical coverage and experience using company evidence. Include Core Company Information: legal name, address, website, proposal contact and relevant identifiers. Include SAM/GSA/NAICS/certification status only when applicable and supported; historical source claims are not a current registry check. Distinguish legal incorporation from earlier claimed operating history.
 
-If required, add officers/directors, Texas/vendor registration, key personnel résumés and percentage allocations, organizational responsibilities and financial evidence. Do not invent biographies, qualifications, local depots, staffing or solvency statements. Supply the supported response and identify exact missing records.
+If required, add officers/directors, Texas/vendor registration, key personnel résumés and percentage allocations, organizational responsibilities and financial evidence. Reuse known company records; do not invent biographies, qualifications, local depots, staffing or solvency statements. After source checks, ask early for required missing records and obtain the answer or explicit incomplete-draft direction before delivery. Keep internal attachment/completion commands in separate notes.
 
 ## Technical Approach
 
@@ -31,7 +31,7 @@ Open with the actual proposed equipment, quantities, users and lifecycle service
 
 **Delivery and installation:** transportation/staging, permitted delivery windows, placement/stability, actual power/water/waste connections, functional tests and inspection/acceptance. State utility responsibilities from the contract. Do not copy generic voltage/amperage from an old proposal.
 
-**Operations and maintenance:** required service interval, water resupply, wastewater removal/legal disposal, cleaning, consumables, condition checks, logs/reporting, repair/replacement arrangements and issue escalation. Use actual dispatch coverage/response commitments or a confirmation field. Separate rental-unit servicing from work on buyer-owned toilets/septic systems when the bid does.
+**Operations and maintenance:** required service interval, water resupply, wastewater removal/legal disposal, cleaning, consumables, condition checks, logs/reporting, repair/replacement arrangements and issue escalation. Use supported dispatch coverage/response commitments; ask for missing commitments when the current proposal requires them. Do not silently replace a required answer with a confirmation field. Separate rental-unit servicing from work on buyer-owned toilets/septic systems when the bid does.
 
 **Demobilization/transition:** final servicing, safe disconnection, removal, restoration, buyer records and approved handoff. Include continuity, disaster recovery and retention when required. Do not claim an exercise was completed when it is only planned.
 
@@ -49,7 +49,7 @@ Use the buyer's mandatory schedule. If none, a useful native table contains item
 
 ## Past Performance
 
-Prefer three relevant examples if supported and no different buyer count applies. Use the required age, scope and field criteria. Each record should identify customer/project, role, location, performance dates, actual value or clearly qualified source value, approved reference contact/title/email/phone, deliverables and relevance. An aggregate ceiling is not earned revenue; a draft bid is not an award or completed project. Do not claim contact permission is established when it is not.
+Read and use the relevant existing past-performance library before writing this section. Prefer three relevant examples if supported and no different buyer count applies. Apply the buyer's actual age, scope and field criteria; ask after source checks only for information still needed to meet them, without demanding unnecessary additional detail. Use company-provided month/year dates and stated contract values when the buyer accepts their precision and basis; ask for exact days or actual final cost only when required. Each required record should identify customer/project, role, location, performance dates, actual value or clearly qualified source value, reference contact/title/email/phone, deliverables and relevance as applicable. An aggregate ceiling is not earned revenue; a draft bid is not an award or completed project. Do not claim contact permission is established when it is not. Required missing reference information must be answered or expressly left unresolved at the user's instruction, not silently delivered as placeholders.
 
 ## Required Documentation
 
@@ -57,4 +57,4 @@ Address the actual solicitation's forms, certifications, acknowledgements, subco
 
 ## Final writing review
 
-Use the company's voice, specific verbs and operational detail. Avoid repeated superlatives, unsupported compliance claims, broad brochure copy and generic filler. Correct identity/contact inconsistencies, consecutive section numbering and contents entries. Leave only actual information gaps, not questions whose answers are already available in the supplied sources.
+Use the company's voice, specific verbs and operational detail. Avoid repeated superlatives, unsupported compliance claims, broad brochure copy and generic filler. Correct identity/contact inconsistencies, consecutive section numbering and contents entries. Remove internal “Attach/Complete/Confirm” preparation commands from buyer-facing prose without deleting required information. Use answers already available in the sources; resolve required remaining gaps with the user or obtain explicit instruction to deliver an incomplete draft. Normal unsigned execution lines may remain blank.

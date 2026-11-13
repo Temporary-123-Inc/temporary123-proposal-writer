@@ -37,7 +37,7 @@ Block types:
 
 Use unique bookmark names beginning with a letter/underscore and containing at most 40 letters, numbers or underscores. `CoverLetter` is created automatically. For each contents entry, specify the target's exact bookmark, label and actual positive page number; invalid/missing targets are rejected.
 
-The script does not calculate prices, validate source support or prove technical compliance. Calculate approved rates/extensions with decimal arithmetic before writing the JSON. Missing company evidence can be represented by explicit draft fields, but do not leave the narrative as empty headings.
+The script does not calculate prices, validate source support or prove technical compliance. Read and use the existing company, pricing and relevant past-performance sources, and calculate approved rates/extensions with decimal arithmetic before writing the JSON. Required missing answers may be tracked in a working copy while asking the user early, but unresolved required fields belong in a delivered document only with explicit instruction to deliver an incomplete draft. Do not leave the narrative as empty headings or put internal attachment/completion commands into buyer-facing prose. Ordinary unsigned execution lines are acceptable.
 
 ## Create and inspect
 
@@ -68,8 +68,8 @@ For contents pagination, first build/render without `toc` when pages are unknown
 
 Inspect every rendered page, not only the first page or extracted text. Check cover-letter fit, table/header wrapping, row visibility, page breaks, image/caption placement, blank/overflow pages, fonts, footer fields and contents/bookmark navigation. Repair widths/spacing or restructure content rather than shrinking below a mandatory font size. Re-render after meaningful layout changes.
 
-If no permitted renderer/export route works, preserve and deliver the real editable Word draft, state that page layout could not be visually verified, and identify the concrete unavailable capability. Do not invent verification, abandon substantive drafting or open desktop apps as a workaround.
+If no permitted renderer/export route works, preserve the real editable Word draft, state that page layout could not be visually verified, and identify the concrete unavailable capability. This rendering limitation does not waive the required-input gate: resolve required missing answers or obtain explicit instruction to deliver an incomplete draft before final delivery. Do not invent verification, abandon substantive drafting or open desktop apps as a workaround.
 
 ## Delivery
 
-Return only requested deliverables, normally the `.docx`; QA PDFs/PNGs and scratch JSON stay internal. Use Claude's supported file attachment/output-link mechanism. Verify that the saved file exists, opens as a valid DOCX ZIP and contains the full draft, cover letter, tables and intended images. Provide a concise list of actual remaining confirmations outside the buyer-facing document.
+Return only requested deliverables, normally the `.docx`; QA PDFs/PNGs and scratch JSON stay internal. Use Claude's supported file attachment/output-link mechanism. Verify that the saved file exists, opens as a valid DOCX ZIP and contains the full draft, cover letter, tables and intended images. Before delivery, required missing inputs must be answered or the user must explicitly instruct delivery of an incomplete draft. Keep any authorized unresolved items in a concise separate completion note; no response is not permission to guess or silently deliver required blanks. Normal unsigned execution lines remain acceptable.
