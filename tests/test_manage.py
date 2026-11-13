@@ -74,7 +74,9 @@ print(json.dumps({"verified": True}))
         guide = self.runtime / "references/guide.md"
         for text, message in (("[Missing](missing.md)", "missing relative link target"), ("[Missing](../SKILL.md#absent)", "missing Markdown anchor")):
             with self.subTest(text=text):
-                guide.write_text(text, encoding="utf-8")
+                # Keep the anchor used by SKILL.md valid so this case has only
+                # its intended failure, regardless of filesystem traversal order.
+                guide.write_text("## Required facts\n\n" + text, encoding="utf-8")
                 with self.assertRaisesRegex(manage.ManagementError, message):
                     manage.validate(self.repo)
 
