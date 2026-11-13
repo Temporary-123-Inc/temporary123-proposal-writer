@@ -26,6 +26,7 @@ Page map: 1–2 summary/support/transport; 3–4 shower/restroom combinations; 5
 | Original style reference | https://docs.google.com/document/d/1rG5FWpSKjbR6IkqA11jhGdmRs_BpE-Ac4OQ7bB4EYzQ/edit — prose/cover-letter structure only; the blueprint retains the useful writing pattern. |
 | Supporting repository | https://drive.google.com/drive/folders/1tVYaXws6YOkV-k2fik05WEv8xXxl22Q7 |
 | Registration/company materials | https://drive.google.com/drive/folders/1pFV2PvbIDjvP8bpJlsNu-YMWspS5sX0B |
+| Current company-information document | https://docs.google.com/document/d/1d4NQDysuJyMFAvfo16WkH02gJvwH6rrNx_ouYcXqtJ4/edit — modified November 13, 2026; ordinary identity/contact/owner facts agree with the earlier company record. Contains tax/payment data: retrieve only relevant information for the authorized response; do not mirror its contents into this skill. |
 | Completed signed W-9 | https://drive.google.com/file/d/1g-DTUD1oVBKdy7PfbruGl3OXAN-se8fc/view — signed January 27, 2026, visually verified in Registration. Retrieve when actually required and check its details and suitability for the current request; keep tax data out of this skill. |
 | Capability statement | https://drive.google.com/file/d/1nBnaWsYXgLhsLgts4nWNoaURwt6oejNJ/view — last inspected modified November 9, 2026. |
 | Prior bids and awards | https://drive.google.com/drive/folders/1QDuGPSZO5chnsY4thnWdBjJUHcms1cWo |
