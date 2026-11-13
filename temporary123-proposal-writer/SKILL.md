@@ -7,6 +7,12 @@ description: "Turn solicitation or rental-project links into complete Word propo
 
 When the user submits a solicitation or project link in the established Proposal Writer workflow, read it and produce a complete editable Word proposal for that opportunity, including a personalized cover letter. The link itself is sufficient instruction to start; the user does not need to repeat the Word, cover-letter, price-book, or image-source preferences. Use Temporary 123, Inc. as the proposer unless the user names another company. Match the previously reviewed proposal's formal, practical writing style and section flow.
 
+## Follow the ordered workflow
+
+Read and follow [references/proposal-workflow.md](references/proposal-workflow.md) for the eleven-step order and the resources linked to each step. Open applicable resource contents rather than assuming that a listed link was used. Record the actual source/file/page/row and supported answer for each needed item. The sections below provide supporting rules within that workflow; the buyer's required document order still governs the final Word file.
+
+Show the user a resource-status table after the initial source pass and update it at delivery: **Step | Source actually used (link) | Status | Missing information / next action**. Use the workflow's status definitions to distinguish reviewed, partial, missing after checks, access blocked, not yet checked and not applicable; authoring/QA remain pending until performed. Keep this table outside the client-facing Word document. Ask required missing questions as soon as discovered while continuing independent work; the table is not a reason to delay questions or replace the proposal deliverable.
+
 ## Read the submitted link
 
 Open each supplied opportunity/project link using the relevant connected tool when available, or web browsing for public pages. Read the notice and available solicitation, SOW/PWS, pricing schedule, amendments, Q&A, and attachments needed to draft the response. A summary or search snippet alone is insufficient when the underlying documents are available. Apply later amendments to the requirements they change. Follow the buyer's required response format, page limits, submission instructions, and evaluation criteria.
