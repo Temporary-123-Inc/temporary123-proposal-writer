@@ -2,11 +2,13 @@
 
 This writing guide distills the previously reviewed Temporary 123 proposal for temporary living quarters, showers, and heads: https://docs.google.com/document/d/1rG5FWpSKjbR6IkqA11jhGdmRs_BpE-Ac4OQ7bB4EYzQ/edit . The complete inspected snapshot is `assets/reference-export.pdf`. Use the guide to write a fresh draft from the user's new project link. The old Google Doc does not need to be opened or copied. Follow the new solicitation's required structure when it differs.
 
+Apply the source-use and missing-information rules in `SKILL.md` throughout this blueprint. Use existing company, pricing and past-performance records before asking questions. Resolve required missing facts with the user before delivery; placeholders are permitted in a delivered document only when the user explicitly requests an incomplete draft. Keep completion instructions outside the buyer-facing proposal. Normal unsigned execution lines remain appropriate.
+
 ## Front matter
 
 ### Cover page
 
-For the default Word proposal, use a clean title/details page or opening block with the response type, date or date placeholder, solicitation number, project title, prepared-for agency/customer and contact, and prepared-by company/contact. Add verified registration identifiers when relevant. Keep content editable; do not reuse old project text embedded in cover artwork.
+For the default Word proposal, use a clean title/details page or opening block with the response type, preparation date or supplied response date, solicitation number, project title, prepared-for agency/customer and contact, and prepared-by company/contact. Add verified registration identifiers when relevant. Leave execution dates unsigned where required. Keep content editable; do not reuse old project text embedded in cover artwork.
 
 ### Cover letter
 
@@ -20,7 +22,7 @@ Use Word heading styles and actual final page references. Include body sections 
 
 Explain the business, relevant service lines, geographical coverage, supported customers, and experience as evidenced by the supplied company information. Connect those capabilities to this buyer's need. Include only verified registrations, contract vehicles, certifications, deployment capabilities, and service commitments.
 
-**Core Company Information** follows as labeled fields: legal business name; address; website; SAM status, UEI and CAGE when relevant; primary and other relevant NAICS codes; proposal contact. Use confirmation placeholders for unverified fields. An old proposal alone is insufficient to assert that a registration is currently active.
+**Core Company Information** follows as labeled fields: legal business name; address; website; SAM status, UEI and CAGE when relevant; primary and other relevant NAICS codes; proposal contact. Use sourced information and ask about required unverified fields. Omit optional unsupported claims. An old proposal alone is insufficient to assert that a registration is currently active.
 
 ## 2. Technical Approach
 
@@ -28,7 +30,7 @@ Open with a project-specific turnkey solution: what is supplied, who it supports
 
 ### Phase I: Pre-Deployment Coordination
 
-Address the project schedule and milestones, site/access coordination, placement plan, utility verification, permits or clearances if required, buyer/contractor responsibilities, and readiness dependencies. Include actual dates or specific placeholders; do not promise immediate deployment simply because the source does.
+Address the project schedule and milestones, site/access coordination, placement plan, utility verification, permits or clearances if required, buyer/contractor responsibilities and readiness dependencies. Include supported dates and ask about required missing commitments; do not promise immediate deployment simply because the source does.
 
 ### Phase II: Delivery and Installation
 
@@ -39,8 +41,8 @@ Describe transportation and staging; delivery location and access windows; place
 Use these practical subtopics where applicable:
 
 - **Routine Servicing:** supported frequency, potable-water resupply, wastewater removal, cleaning, consumables, and preventive maintenance.
-- **Monitoring & Quality Control:** named role or placeholder for the coordinator, inspection/documentation method, reporting cadence, and issue handling.
-- **Emergency Support:** actual contact arrangements, service hours, escalation and supported response commitments. Otherwise mark the proposed service level for confirmation.
+- **Monitoring & Quality Control:** supported coordinator role, inspection/documentation method, reporting cadence and issue handling; ask for the assigned name only when needed for the response.
+- **Emergency Support:** actual contact arrangements, service hours, escalation and supported response commitments. Ask about required unsupported service commitments.
 
 ### Phase IV: Demobilization
 
@@ -52,7 +54,7 @@ Address requirements actually relevant to the solicitation, site and supplied eq
 
 ### Utility & Infrastructure Considerations
 
-Specify power/load and connection, potable water, wastewater containment/disposal, HVAC, site footprint and access requirements where known. Show who provides each resource. Include unsupported values as confirmation placeholders, not plausible specifications.
+Specify power/load and connection, potable water, wastewater containment/disposal, HVAC, site footprint and access requirements where supported. Show who provides each resource. Ask for required unsupported values rather than inventing specifications.
 
 ### Operational Readiness and Rapid Deployment
 
@@ -75,7 +77,7 @@ Read [pricing-and-company-sources.md](pricing-and-company-sources.md) and match 
 
 ## 5. Past Performance
 
-Use approved, relevant examples, preferably three when available and no different count is required. If none are provided, retain a clearly marked reference placeholder rather than inventing a record or copying old customer contacts.
+Select relevant examples from the existing company and past-performance records, preferably three when available and no different count is required. Use their supported descriptions and contacts. Ask for additional details or examples only when the available records do not meet this response's needs; do not ask the user to recreate the library or invent a record.
 
 Each record contains a descriptive project heading, customer/agency, contract role/type, location, performance dates, value when permitted, reference POC name/title/email/phone when approved, and a short scope/results narrative explaining relevance. Keep record fields consistent across references. The source's three headings are U.S. Navy Contract Support; Temporary Restroom and Housing Facility Rental; and Complete Turn-key Service. These are historical examples, not preapproved current references.
 
@@ -83,7 +85,7 @@ Each record contains a descriptive project heading, customer/agency, contract ro
 
 Follow the actual solicitation's representations, certifications, acknowledgements and attachments. The source includes FAR 52.212-3 and acknowledgements for HSAR 3052.209-70 and 3052.237-72. These are conditional examples, not a universal compliance package. Do not add them solely because they occur in the old proposal.
 
-For each applicable item, draft an appropriately qualified statement, required company identifiers, and an unsigned authorized-representative block. Leave execution date and signature blank. If no applicable requirements are provided, state `[CONFIRM: required representations, certifications, and attachments]` rather than declaring none are required. Mark missing attachments as needed, not enclosed.
+For each applicable item, draft an appropriately qualified statement, required company identifiers and an unsigned authorized-representative block. Leave execution date and signature blank. Determine applicable requirements from the actual solicitation; ask if required instructions or attachments remain unavailable. Track missing attachments in the internal completion list and do not claim they are enclosed.
 
 ## Known source inconsistencies
 
