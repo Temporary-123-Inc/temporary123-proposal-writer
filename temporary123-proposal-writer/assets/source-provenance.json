@@ -1,0 +1,36 @@
+{
+  "snapshot_date": "2026-11-13",
+  "pricebook": {
+    "original_name": "Temporary123_Rental_Price_Book (6).pdf",
+    "original_sha256": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205",
+    "reading_copy": "rental-price-book-reading-copy.pdf",
+    "reading_copy_sha256": "4144d44c0f668084766b951560f2597026f29d91c404d7db3d33befa5926128f",
+    "pages": 15,
+    "transformation": "Embedded RGB images recompressed as JPEG quality90 without dimension changes; all13images retained. Text,table drawing content,page order andlayoutpreserved. Original source unchanged outside package.",
+    "text_comparison": "15 of15 page texts identical",
+    "effective_price_date": "Not established by source",
+    "image_comparison": "13 of13 embedded images retained at original dimensions; JPEG compression changes pixel encoding."
+  },
+  "images": [
+    {
+      "asset": "images/restroom-sink-interior.png",
+      "source_file_id": "1r5-6USyN0FBE0vOtHLJoMCIh4BklsQYQ",
+      "sha256": "068d2b105ce1ba9f67e79021c218da68442d5755d77c44b7f578b911e6d4cde9",
+      "role": "Representative restroom interior only"
+    },
+    {
+      "asset": "images/restroom-urinal-interior.png",
+      "source_file_id": "1wEwo4WrwxIMkUwS9--yN9ad12T-XIue6",
+      "sha256": "a2cf4e17f7f49c03e7f7ffdb4b2907bd9485a2698893c2f9674df3937f3e9552",
+      "role": "Representative restroom interior only"
+    }
+  ],
+  "catalog": {
+    "id": "1tu6szuEWANuI0gtqrsl9g_gQa0Vm256YD7UmsEtouOc",
+    "gid": 943101906,
+    "row": 37,
+    "equipment": "Restroom Trailer",
+    "folder": "1urVsllbGMhX-IyybufdG0bbcDqah--kz"
+  },
+  "credentials": "None bundled"
+}
