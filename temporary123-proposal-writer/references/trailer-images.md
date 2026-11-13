@@ -16,6 +16,8 @@ For offline discovery, `assets/catalog/trailer-image-catalog.json` retains only 
 
 ## Locate candidate assets
 
+Before matching a product variant or claiming model-specific features in a caption, read the [inventory specification guide](inventory-specifications.md) and use its technical index/ItemID facts. The designated image catalog remains the first visual-discovery source; photo references in a matching inventory record can supply additional relevant views. Inspect the pixels and provenance as usual. Keep operational/tracker/access fields in the original workbook internal and do not navigate them as image sources.
+
 1. Load the Google Sheets skill and its live-read safety reference. Read workbook metadata and resolve the current tab title by sheet ID `943101906`. Use this target tab; unrelated tabs are not part of the image catalog.
 2. Read a bounded range with the verified tab name, initially `A1:D80` or a smaller relevant range within current grid bounds. Include displayed values, formulas, `hyperlink`, and `textFormatRuns` so linked text is not lost. If the catalog has grown, read further bounded blocks only as needed.
 3. Match the proposed unit to the equipment label in A: product type, length, trailer versus container, stall/bed/machine count, and relevant configuration. Broad category similarity is insufficient for a caption that claims an exact model. For an unconfirmed offered model, use only a clearly labeled representative image of the appropriate type, or omit it when it could mislead.

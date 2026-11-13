@@ -59,12 +59,12 @@
       "purpose": "Unchanged representative restroom image; not proof of offered model/specifications."
     }
   ],
-  "access_requirements": "Live solicitation and private Drive/Sheets refreshes require authorized tools/access. No credentials bundled.",
+  "access_requirements": "Live solicitation and private Drive/Sheets refreshes require authorized tools/access. No connector/API credentials bundled. The user-supplied private inventory original retains operational/access fields for internal use only.",
   "exclusions": [
     "Generated proposal drafts",
     "Solicitation-specific bid packets",
     "Tax and bank forms",
-    "Credentials/tokens/signed download URLs",
+    "Connector/API credentials and newly obtained signed download URLs",
     "Other spreadsheet tabs",
     "Scratch files, test fixtures and unrelated projects"
   ],
@@ -78,6 +78,22 @@
     "reference.png": "e1a73d22fbb497fd21a57dbecbe8f42b20a950169d1a271d7488e4ca9a578775",
     "rental-price-book.txt": "0efa2f90422633507fdce50a61ddf567df4173d412d87284f0251b2f0c8c7822",
     "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8",
-    "temporary123-rental-price-book.pdf": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205"
+    "temporary123-rental-price-book.pdf": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205",
+    "inventory/temporary123-inventory-and-specifications.xlsx": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
+    "inventory/product-specifications.json": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec"
+  },
+  "inventory": {
+    "original_filename": "Temporary123_Complete_Inventory_and_Specifications .xlsx",
+    "original_asset": "inventory/temporary123-inventory-and-specifications.xlsx",
+    "original_sha256": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
+    "retained_on": "2026-11-14",
+    "source_snapshot_date": "2026-11-03",
+    "source_url": "https://temporary123.glide.page/dl/08a746",
+    "record_count": 174,
+    "named_record_count": 173,
+    "technical_index": "inventory/product-specifications.json",
+    "technical_index_sha256": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
+    "transformation": "Original workbook unchanged; technical index retains source values and cell locators, excludes operational/access/client/driver/tracker fields and flags missing values and known identity conflicts. Item ID is key, not SKU. Snapshot does not confirm current stock.",
+    "visibility": "Private internal source; do not copy operational workbook data into buyer prose."
   }
 }

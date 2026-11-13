@@ -62,6 +62,8 @@ Explain equipment availability, delivery lead time, regional support and depende
 
 ## 3. Equipment Specifications
 
+Use the [inventory specification lookup](inventory-specifications.md) first for the actual asset/model facts and retain ItemID plus workbook sheet/cell sources. Resolve its missing fields and identity conflicts before claiming the affected feature. Use the price book for matching prices and the photo catalog for visuals; neither fills an unsupported technical field.
+
 Create a subsection for each offered equipment type. The example uses **Sleeper/Quarters/Berthing Trailers** and **Restroom with Shower Trailers**; replace or expand them for the new scope.
 
 Cover quantity and model/configuration, capacity, dimensions/footprint, layout/privacy, fixtures, HVAC, power/water/waste requirements, access, safety and accessibility features, and included accessories, as relevant and supported. Connect features to the required use. Make offered occupancy distinct from a model's maximum capacity. When useful, select matching images from the user-designated catalog using [trailer-images.md](trailer-images.md); use photos/spec sheets only for the offered or clearly labeled representative configuration. Do not assume HUD certification, stackability, private rooms, Rockwool insulation, touchless fixtures or accessible configurations from the sample.
