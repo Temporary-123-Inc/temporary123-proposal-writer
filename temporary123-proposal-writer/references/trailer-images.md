@@ -9,6 +9,8 @@
 
 The spreadsheet is an index of equipment folders, not a grid of embedded images. Use available Google Sheets/Drive connectors or an authorized browser. The skill cannot create access to private files. Keep sources read-only and never change their sharing to embed images.
 
+For company product identity and specifications, first consult the [inventory specification guide](inventory-specifications.md) and selected ItemID in the [technical index](../assets/inventory/product-specifications.json), checking [source workbook cells](../assets/inventory/temporary123-inventory-and-specifications.xlsx) where needed. The image catalog remains the primary source for discovering visuals; its row/category or a photograph does not override inventory specifications, resolve identity conflicts or establish live availability. Match the actual variant before describing a photo as the offered unit.
+
 ## Selection workflow
 
 1. Resolve the current tab by its gid. Read bounded relevant rows (initially A1:D80 if appropriate), including hyperlinks, rich-text links, formulas and raw/display values. Expand only as needed.

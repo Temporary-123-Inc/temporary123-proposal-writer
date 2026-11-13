@@ -32,5 +32,19 @@
     "equipment": "Restroom Trailer",
     "folder": "1urVsllbGMhX-IyybufdG0bbcDqah--kz"
   },
-  "credentials": "None bundled"
+  "credentials": "No connector/API credentials bundled. The user-supplied private inventory original retains operational/access fields for internal use only.",
+  "inventory": {
+    "original_filename": "Temporary123_Complete_Inventory_and_Specifications .xlsx",
+    "original_asset": "inventory/temporary123-inventory-and-specifications.xlsx",
+    "original_sha256": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
+    "retained_on": "2026-11-14",
+    "source_snapshot_date": "2026-11-03",
+    "source_url": "https://temporary123.glide.page/dl/08a746",
+    "record_count": 174,
+    "named_record_count": 173,
+    "technical_index": "inventory/product-specifications.json",
+    "technical_index_sha256": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
+    "transformation": "Original workbook unchanged; technical index retains source values and cell locators, excludes operational/access/client/driver/tracker fields and flags missing values and known identity conflicts. Item ID is key, not SKU. Snapshot does not confirm current stock.",
+    "visibility": "Private internal source; do not copy operational workbook data into buyer prose."
+  }
 }
