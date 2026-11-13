@@ -1,8 +1,8 @@
-# Codex Word authoring and portable fallback
+# Word authoring and portable fallback
 
 ## Use the host's document capability first
 
-When the Documents skill is available, read and follow its current instructions, including any artifact-operation marker, runtime selection, source editing and render checks. Locate the host's bundled runtimes through its dependency loader when available. Do not copy managed plugin code into this package or hardcode another user's runtime installation path.
+Use the current host's native document-authoring capability first when available. In Codex, follow the Documents skill's current requirements, including artifact-operation markers, runtime selection and render checks, and locate bundled dependencies through its loader. In Claude, use available native file/document capabilities without assuming Codex-only skills or tools exist. See the matching [Codex adapter](platform-codex.md) or [Claude adapter](platform-claude.md). Do not copy managed plugin code or hardcode another user's runtime path.
 
 This skill repository includes three independent Python helpers for environments without the Documents capability. They require Python 3 and `python-docx`; image work needs `Pillow`. Reading the bundled PDFs uses `pypdf`. Rendering additionally requires headless LibreOffice and either `PyMuPDF`, `pypdfium2` or Poppler. Use permitted installed/bundled dependencies; do not claim that a skill installs software or grants access by itself.
 

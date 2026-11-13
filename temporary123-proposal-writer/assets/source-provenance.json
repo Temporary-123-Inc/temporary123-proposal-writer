@@ -18,12 +18,6 @@
       "limitation": "Historical certificate dated March 27, 2024; does not establish current licensing or good standing."
     }
   },
-  "original_pricebook": {
-    "asset": "temporary123-rental-price-book.pdf",
-    "original_filename": "Temporary123_Rental_Price_Book (6).pdf",
-    "sha256": "93C213EB9B3A01EDFD95811B46F77CAFC4E17A2F2E8D4B7BEDABD6FA84BCC205",
-    "state": "Unchanged original, all15pages. Effective pricing date not established."
-  },
   "style_sources": {
     "original_style_url": "https://docs.google.com/document/d/1rG5FWpSKjbR6IkqA11jhGdmRs_BpE-Ac4OQ7bB4EYzQ/edit",
     "word_source_file_id": "1ySbAfUtMlLk-7sncLW1n_bEjueUh6q3X",
@@ -74,13 +68,13 @@
     "company/temporary123-capability-statement.pdf": "f12d2a495a059e0c24586a993c5b7d72c4f3a7b5de77962d123420d4ebac9f23",
     "images/restroom-sink-interior.png": "068d2b105ce1ba9f67e79021c218da68442d5755d77c44b7f578b911e6d4cde9",
     "images/restroom-urinal-interior.png": "a2cf4e17f7f49c03e7f7ffdb4b2907bd9485a2698893c2f9674df3937f3e9552",
+    "inventory/product-specifications.json": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
+    "inventory/temporary123-inventory-and-specifications.xlsx": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
     "reference-export.pdf": "a49c79efbb1b5b9219e1285bf9f901eadf850deb7b878e7942fced62107b6116",
     "reference.png": "e1a73d22fbb497fd21a57dbecbe8f42b20a950169d1a271d7488e4ca9a578775",
-    "rental-price-book.txt": "0efa2f90422633507fdce50a61ddf567df4173d412d87284f0251b2f0c8c7822",
-    "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8",
-    "temporary123-rental-price-book.pdf": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205",
-    "inventory/temporary123-inventory-and-specifications.xlsx": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
-    "inventory/product-specifications.json": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec"
+    "rental-price-book-reading-copy.pdf": "4144d44c0f668084766b951560f2597026f29d91c404d7db3d33befa5926128f",
+    "rental-price-book.txt": "54787a778828f7aa8895f595bfabbf0c9434d04c99cfcb977ebbfab562dc52fc",
+    "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8"
   },
   "inventory": {
     "original_filename": "Temporary123_Complete_Inventory_and_Specifications .xlsx",
@@ -95,5 +89,18 @@
     "technical_index_sha256": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
     "transformation": "Original workbook unchanged; technical index retains source values and cell locators, excludes operational/access/client/driver/tracker fields and flags missing values and known identity conflicts. Item ID is key, not SKU. Snapshot does not confirm current stock.",
     "visibility": "Private internal source; do not copy operational workbook data into buyer prose."
+  },
+  "repository_original_pricebook": {
+    "path": "source-archives/temporary123-rental-price-book.pdf",
+    "original_filename": "Temporary123_Rental_Price_Book (6).pdf",
+    "sha256": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205",
+    "state": "Unchanged source archive; excluded from portable runtime bundle. Effective price date not established."
+  },
+  "pricebook_reading_copy": {
+    "asset": "rental-price-book-reading-copy.pdf",
+    "sha256": "4144d44c0f668084766b951560f2597026f29d91c404d7db3d33befa5926128f",
+    "pages": 15,
+    "embedded_images": 13,
+    "transformation": "Embedded RGB images recompressed as JPEG quality90 at original dimensions. All15pages and13images retained; all extracted page texts identical to original. Table drawing content, order and qualifications preserved."
   }
 }

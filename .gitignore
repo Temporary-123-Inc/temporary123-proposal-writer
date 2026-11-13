@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+.coverage
+/.agents/skills/
+/.claude/skills/
