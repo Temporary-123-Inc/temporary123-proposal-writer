@@ -35,7 +35,7 @@ If permitted rendering fails, use **Page unverified — [section/field]**, state
 
 Give **Submission readiness: N% (N/100)**, using the 1–100 scale requested by the user, followed by **Ready for submission** or **Not ready for submission** and the key blockers. This is a document-completion assessment, separate from winning likelihood and separate from permission to submit.
 
-Use the actual solicitation's requirements/source matrix. Record verified passed, failed, not checked and not applicable checks. Use this consistent internal 100-point rubric, not as a substitute for the buyer's evaluation weights:
+Use the actual solicitation's requirements/source matrix. Optional make/model, dimension or specification-sheet details introduced by the writer do not become mandatory checks or reduce submission readiness unless the buyer or a material compliance question requires them. Record verified passed, failed, not checked and not applicable checks. Use this consistent internal 100-point rubric, not as a substitute for the buyer's evaluation weights:
 
 | Readiness area | Weight |
 |---|---:|

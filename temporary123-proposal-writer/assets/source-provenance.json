@@ -70,10 +70,11 @@
     "images/restroom-urinal-interior.png": "a2cf4e17f7f49c03e7f7ffdb4b2907bd9485a2698893c2f9674df3937f3e9552",
     "inventory/product-specifications.json": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
     "inventory/temporary123-inventory-and-specifications.xlsx": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
+    "pricing/rate-catalog.json": "139745d5bf77bd8681b4bc7d63c6bffcdeeff7e01ee90d3cd5eae1efcb21a79f",
     "reference-export.pdf": "a49c79efbb1b5b9219e1285bf9f901eadf850deb7b878e7942fced62107b6116",
     "reference.png": "e1a73d22fbb497fd21a57dbecbe8f42b20a950169d1a271d7488e4ca9a578775",
-    "rental-price-book-reading-copy.pdf": "4144d44c0f668084766b951560f2597026f29d91c404d7db3d33befa5926128f",
-    "rental-price-book.txt": "54787a778828f7aa8895f595bfabbf0c9434d04c99cfcb977ebbfab562dc52fc",
+    "rental-price-book-reading-copy.pdf": "3cfb0bbb6025a6004c547160bdcf077eb935df405d70f9d02c6c0c03618d153d",
+    "rental-price-book.txt": "a42eaac6f4d413ddee4e8ac8ad327a94a8e7da5c6021370e6f55f081f94f83e0",
     "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8"
   },
   "inventory": {
@@ -94,13 +95,54 @@
     "path": "source-archives/temporary123-rental-price-book.pdf",
     "original_filename": "Temporary123_Rental_Price_Book (6).pdf",
     "sha256": "93c213eb9b3a01edfd95811b46f77cafc4e17a2f2e8d4b7bedabd6fa84bcc205",
-    "state": "Unchanged source archive; excluded from portable runtime bundle. Effective price date not established."
+    "state": "Unchanged legacy 15-page original archive; excluded from runtime. Preserved as historical provenance; current pricing comes from the newer source below."
   },
   "pricebook_reading_copy": {
     "asset": "rental-price-book-reading-copy.pdf",
-    "sha256": "4144d44c0f668084766b951560f2597026f29d91c404d7db3d33befa5926128f",
-    "pages": 15,
-    "embedded_images": 13,
-    "transformation": "Embedded RGB images recompressed as JPEG quality90 at original dimensions. All15pages and13images retained; all extracted page texts identical to original. Table drawing content, order and qualifications preserved."
+    "sha256": "3cfb0bbb6025a6004c547160bdcf077eb935df405d70f9d02c6c0c03618d153d",
+    "pages": 19,
+    "embedded_images": 26,
+    "transformation": "Sanitized current-source derivative. All19page positions retained; native extracted text on all18non17pages matches original. Original17image/resources excluded, not covered by a visual overlay.20RGBimages JPEGquality90 at original dimensions;6alphaimages retained; safe internal/external links and bookmarks rebuilt. No sensitive source17values retained.",
+    "source_original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea"
+  },
+  "updated_on": "2026-11-15",
+  "current_pricebook_source": {
+    "original_filename": "Temporary123_Rental_Price_Book (8) 1.pdf",
+    "original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea",
+    "original_pages": 19,
+    "received_on": "2026-11-15",
+    "price_effective_date": null,
+    "original_location_scope": "User-supplied local original, retained privately outside repository and portable skill; not a runtime dependency.",
+    "confidential_source_page": 17,
+    "excluded_information": [
+      "Tax identifier values",
+      "SSN values"
+    ],
+    "sanitized_repository_asset": "source-archives/temporary123-rental-price-book-2026-11-15-sanitized.pdf",
+    "sanitized_repository_sha256": "3cfb0bbb6025a6004c547160bdcf077eb935df405d70f9d02c6c0c03618d153d",
+    "transformation": "Fresh PDF page cloning excluding original page17, rebuilt safe navigation. Page17 replaced by whitelisted company/reference text without its original page resources or image. RGB images recompressed as JPEG quality90 at original dimensions; alpha images retained. No raw confidential new original placed in repository."
+  },
+  "pricebook_text": {
+    "asset": "rental-price-book.txt",
+    "sha256": "a42eaac6f4d413ddee4e8ac8ad327a94a8e7da5c6021370e6f55f081f94f83e0",
+    "scope": "Sanitized extraction plus manually verified image-page pricing, service, staffing, transport and personnel/business-source transcriptions. No tax or SSN values."
+  },
+  "normalized_pricing": {
+    "asset": "pricing/rate-catalog.json",
+    "sha256": "139745d5bf77bd8681b4bc7d63c6bffcdeeff7e01ee90d3cd5eae1efcb21a79f",
+    "schema_version": 1,
+    "item_count": 45,
+    "guide": "references/rental-pricing-guide.md",
+    "lookup_helper": "scripts/pricing.py",
+    "source_scope": "Published pricing pages1-15; qualified personnel/company notes16-19. Physical inventory identifiers remain separate.",
+    "user_override": {
+      "date": "2026-11-15",
+      "service_basis": "per_visit",
+      "recommended_visits_per_month_when_contract_silent": 2,
+      "contract_frequency_overrides": true,
+      "explicit_nonvisit_units_preserved": true,
+      "authority": "User instruction in Proposal Writer chat; not attributed to the PDF."
+    },
+    "unresolved": "Portable restroom/handwash rental periods remain unassigned until user supplies an approved basis; standalone service basis/frequency does not resolve an equipment rental period."
   }
 }

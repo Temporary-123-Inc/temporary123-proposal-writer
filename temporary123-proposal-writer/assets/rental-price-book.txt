@@ -1,4 +1,18 @@
-PAGE 1
+TEMPORARY123 RENTAL PRICE BOOK
+Sanitized searchable extraction and manually verified image-page facts
+Current user-supplied source retained November 15 2026; 19 page positions.
+The original confidential company-information page 17 has been replaced in both portable PDF copies; tax and personal identifiers are not included here.
+Native text on all non-17 pages is unchanged. Manual additions below are labeled and page-sourced.
+
+USER PRICING POLICY NOVEMBER 15 2026
+Otherwise unspecified stand-alone service charges are per service visit.
+When a contract does not state servicing frequency, recommend two service visits per month as a proposed quote basis. Preserve an explicit contract frequency and use actual visits/dates when known; every 14 days is not twice monthly.
+Keep source rates, user policy, proposed frequency and calculated totals separate. A per-visit rate times two is a derived monthly subtotal, not a published book monthly rate.
+Preserve explicit staffing/day/person, consumables/week/trailer, accessory/month, security/8-hours, mileage/mile and equipment event/weekly/monthly units.
+Do not infer unknown rental periods, taxes, fees, discounts, minimum terms, availability, technical compliance or current registration status.
+
+
+=== PAGE 1 ===
 TEMPORARY123
 MASTER RENTAL PRICE INDEX
 Event rentals: 1-3 days at 20% below weekly rates. Click a section to open its flyer.
@@ -92,10 +106,10 @@ Delivery & service fees - p2
 Handwashing sink pricing guide - p7
 Pump-out service guide - p9
 TEMPORARY123  |  Rental price book
-1 / 15
+Personnel - p16 Company information - p17 Capability statement - p18-19
+1 / 19
 
-
-PAGE 2
+=== PAGE 2 ===
 TEMPORARY123
 SERVICE FEES & EQUIPMENT ESTIMATES
 Reference index | Detailed flyers on pages 7, 9 and 14
@@ -153,10 +167,9 @@ Bladder bag & hoses packages (per month):
 Includes toilet paper, hand soap, paper towels,
 and trash liners.
 TEMPORARY123  |  Rental price book
-2 / 15
+2 / 19
 
-
-PAGE 3
+=== PAGE 3 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -197,16 +210,14 @@ Figures are fixture-count planning allowances, not verified total site capacitie
 Construction uses 1926.51(c). Verify actual fixtures, access, utilities, supplies and servicing.
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-3 / 15
+3 / 19
 
-
-PAGE 4
+=== PAGE 4 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-4 / 15
+4 / 19
 
-
-PAGE 5
+=== PAGE 5 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -224,28 +235,49 @@ When OSHA requires showers: 1 per 10 employees of each sex per shift; round up s
 Shower-only trailer: toilet facilities are provided separately.
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-5 / 15
+5 / 19
 
-
-PAGE 6
+=== PAGE 6 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-6 / 15
+6 / 19
 
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 6
+Onsite support rates are per day, per person, for 4-8 hours per day.
+Attendant: standard $700; weekend/holiday/emergency $900.
+Manager: standard $1,000; weekend/holiday/emergency $1,300.
+Overtime begins after 8 hours: additional 20% per hour; calculation basis must be confirmed in the quote.
+Consumables: $100 per week per trailer, including toilet paper, hand soap, paper towels and trash liners.
+Bladder bag and hoses package, 2,500 gallons: $695 per month; footprint 18 ft x 12 ft.
+Bladder bag and hoses package, 5,000 gallons: $895 per month; footprint 20 ft x 20 ft.
 
-PAGE 7
+=== PAGE 7 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-7 / 15
+7 / 19
 
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 7
+Government bid training equipment pricing guide; prices are estimates.
+Double-sided handwashing sink: $90 without service; $140 with service.
+Porta-potty: $200 with service, estimate.
+Source asks to confirm pricing and service frequency before quoting; rental duration is not stated.
+The user per-visit rule for otherwise unspecified stand-alone service charges does not invent an equipment rental term for a combined rental-with-service price.
 
-PAGE 8
+=== PAGE 8 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-8 / 15
+8 / 19
 
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 8
+Standard porta potty: $200.
+Deluxe porta potty: $350 without service; $450 with service.
+ADA porta potty: $500 without service; $600 with service.
+Source asks to confirm rental duration and service frequency; neither is supplied by this image.
+Standard features shown: non-flushing toilet, hand sanitizer dispenser, basic interior.
+Deluxe/flushable features shown: flushable toilet with concealed waste, built-in handwashing sink, mirror, shelf and coat hooks.
+Features vary by unit; confirm amenities when booking. These source descriptions are not proof of a particular asset's availability or ADA compliance.
 
-PAGE 9
+=== PAGE 9 ===
 TEMPORARY123
 PUMP-OUT SERVICE GUIDE
 Separate wastewater systems | Confirm the correct tank connection before pumping.
@@ -256,10 +288,17 @@ Shower bladder pricing applies to shower-only and combination units.
 Confirm the correct tank or bladder connection before pumping.
 < RETURN TO PRICE INDEX
 TEMPORARY123  |  Rental price book
-9 / 15
+9 / 19
 
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 9
+Restroom-only pump-out, 300-gallon restroom tank: $600.
+Shower bladder pump-out: 700 gallons $800; 2,500 gallons $1,500; 5,000 gallons $3,000.
+Shower bladder rates apply to shower-only or shower/restroom combination units.
+The 300-gallon restroom tank pump-out is included with shower bladder service, with no extra charge. Do not double-count it.
+Restroom tank and shower bladder are separate wastewater systems; confirm the correct connection.
+The PDF does not print a billing period for these pump-outs. The user's November 15 2026 direction establishes per service visit as the billing unit.
 
-PAGE 10
+=== PAGE 10 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -272,10 +311,9 @@ $5,995
 $7,995
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-10 / 15
+10 / 19
 
-
-PAGE 11
+=== PAGE 11 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -296,10 +334,9 @@ $9,995
 $12,995
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-11 / 15
+11 / 19
 
-
-PAGE 12
+=== PAGE 12 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -316,10 +353,9 @@ $6,995
 $8,995
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-12 / 15
+12 / 19
 
-
-PAGE 13
+=== PAGE 13 ===
 EVENT, WEEKLY & MONTHLY RENTAL RATES
 Event rentals: 1-3 days, priced 20% below the weekly rate.
 TRAILER / CONFIGURATION
@@ -336,16 +372,229 @@ $4,995
 $5,995
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-13 / 15
+13 / 19
 
-
-PAGE 14
+=== PAGE 14 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-14 / 15
+14 / 19
 
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 14
+Mobilization: $1,500 per trailer for leveling, setup and power/water connection.
+Demobilization: $1,500 per trailer for disconnection of trailer connections.
+Delivery/pickup are transportation, separate from setup/disconnection.
+Rental under 3 months: delivery $4 per mile; pickup $4 per mile.
+Rental over 3 months: delivery $1,495 per trailer; pickup $1,495 per trailer. Each way is charged separately.
+Exactly 3 months: rate must be confirmed. Chargeable mileage origin/distance must be established before extending mileage charges.
 
-PAGE 15
+=== PAGE 15 ===
 < PRICE INDEX
 TEMPORARY123  |  Rental price book
-15 / 15
+15 / 19
+
+MANUALLY VERIFIED IMAGE PRICING ON PAGE 15
+Man-camp rental rates are per person per day, 150-person minimum.
+Without food: standard $175; emergency $220.
+With food: standard $260; emergency $350.
+Basic setup lists housing/billeting, restrooms/latrines, showers and handwashing stations, potable water supply and wastewater handling, power and site utility connections, and food service/dining area for food packages.
+Final equipment quantities, utilities and service scope are confirmed in the written quote.
+Additional onsite staffing: 11-20 trailers one attendant $700 per day; 21+ trailers one attendant plus one manager. Attendant $700/day; manager $1,000/day; combined $1,700/day. Staffing scheduled daily, five days per week. Staffing for ten or fewer trailers is unspecified.
+Optional armed security: $1,600 per 8 hours. Optional unarmed security: $1,150 per 8 hours. Guard count is not explicitly stated.
+Source narrative estimates approximately 95 percent of rented equipment is company-owned; not a live availability statement.
+
+=== PAGE 16 ===
+< PRICE INDEX
+TEMPORARY123  |  Rental price book 16 / 19
+
+MANUALLY VERIFIED ORGANIZATION CHART ON PAGE 16
+Authorized representative: Kermit Pemberton, CEO / Owner; company authorization, executive decisions and escalation support. Business contact as printed: 310-245-6785; carmelopicasso@aol.com.
+Bid and contract administration: Laine Lopez, Government Contracting Specialist; bid coordination, solicitation tracking, submissions, documentation and agency coordination. Business contact: 310-359-8375; laine@temporary123.com.
+Project manager: Shayne Neric, National Sales Manager; scheduling, service quality and day-to-day project communication. Business contact: 310-821-4490; fm2@rentalbc.com.
+Field service lead and backup: Jesus Cazares; installation, service every two weeks, upkeep and backup field coverage. Phone as printed: 357-516-2898; no email printed. Do not guess a correction to this phone prefix.
+Accounting: Hazel Ligon; invoicing, billing inquiries, payment coordination and account records. Business contact: 310-929-5870; Hazel@temporary123.com.
+Organizational roles do not establish project assignment, current availability, qualifications or guaranteed response times. The chart's every-two-weeks wording is not equivalent to two visits per calendar month.
+
+=== PAGE 17 ===
+TEMPORARY123
+COMPANY INFORMATION
+Sanitized portable reference page
+Company
+Temporary 123, Inc.
+Owner
+Kermit Pemberton
+Phone
+(800) 205-6106
+Company email
+contract@temporary123.com
+Website
+https://temporary123.com/
+Mailing address
+333 Washington Blvd #360
+Marina Del Rey, CA 90292
+The source book includes an internal company-information page. This page replaces
+that entire original page in the portable copy.
+Tax and personal identifiers are excluded. Obtain required tax forms and current
+registration evidence only from the authorized supporting-document repository.
+Company-listed identifiers, licenses and contract status must be checked against
+applicable current records before a bid makes a qualification claim.
+This replacement preserves the original nineteen-page numbering. Prices and content
+on the other eighteen pages are retained.
+< RETURN TO PRICE INDEX
+TEMPORARY123 | Sanitized rental price book
+17 / 19
+
+=== PAGE 18 ===
+DIFFERENTIATORS
+Temporary 123 Inc. is a premier provider of Emergency
+Temporary Facilities, Base Camp Operations, and
+Responder Support Camps, proudly serving federal, state,
+and local agencies. We operate under an active GSA
+Multiple Award Schedule, enabling streamlined
+procurement of our services. Our HUD-certified trailers and
+modular units meet stringent federal standards for
+occupancy, fire safety, electrical, and mechanical
+compliance. Each containerized module is built to military
+specifications, featuring Rockwool insulation, soundproof
+construction, stackable frames, and certified ingress/egress
+access.
+Gov POC: Kermit Pemberton
+E: sales@temporarykitchens123.com
+P: +1 (310) 245-6785
+A: 333 Washington Blvd Ste 360,
+     Marina Del Rey, CA 90292
+Website: www.temporary123.com
+CAGE Code: 57C31
+UEI: REVFD44JLMV5
+DUNS: 828345335
+WORK AREA: Nationwide
+SOCIO-EC: SBE, MBE
+Proven Since 1998: Established in 1998,
+Temporary 123 brings decades of proven
+expertise in delivering complex life-support
+solutions under high-pressure conditions.
+HUD-Approved Facilities: HUD HCD-Approved
+Units Meeting Federal Safety Standards
+Global Deployment Capability: Worldwide
+Project Success Demonstrates Global Readiness
+Certified Processeses Globally Recognized
+Quality and Improvement Standards
+Proven Track Record: Past performance records
+updated weekly, with client video testimonials
+available upon request to verify satisfaction and
+reliability.
+CORPORATE DATA
+CAPABILITY NARRATIVE
++1 310-821-4490
+sales@temporarykitchens123.com
+TEMPORARY 123, INC
+www.temporary123.com
+GSA Schedule Holder:
+Active GSA MAS Contract
+(#47QSMS25D00AM)
+streamlines procurement
+and ensures government
+pricing compliance.
+NAICS
+721310
+532490
+722310
+INDUSTRY CODES
+CORE COMPETENCIES
+Basecamp & Responder Support Operations –
+Turnkey basecamp solutions for emergency
+and military missions, ensuring fast setup and
+sustained field operations.
+Field Kitchen & Emergency Catering – Mobile
+UL-compliant kitchens and dining units deliver
+safe, scalable meals for disaster relief and
+remote deployments.
+Man Camp & Temporary Housing – Flexible
+lodging with sleeper units, showers, restrooms,
+laundry, and recreation to support workforce
+and responder needs.
+Facility Support & Utilities – Comprehensive
+site services including water delivery, waste
+removal, generators, and portable sanitation for
+continuous support.
+Disaster Response & Recovery – Fast-response
+services for debris removal, tree clearing, and
+utility support to aid emergency recovery
+efforts.
+Mobile Infrastructure & Equipment Rentals –
+Deployable fleet of trailers, refrigerated storage,
+restrooms, and excavators for adaptable field
+operations.
+GSA SIN
+532490P
+561210FS
+561210FAC
+541614
+624230
+624221
+561210
+423740
+Our nationwide fleet includes Mobile Kitchen Units,
+Sleeper Trailers, Shower and Restroom Facilities, Laundry
+Units, Medical and Command Centers, Office and
+Classroom Trailers, Recreation and Fitness Facilities,
+Potable Water Tanks, Communications Towers, and
+complete Turnkey Basecamp Packages, all supported by
+our transparent turnkey pricing model. Temporary 123
+delivers rapid, scalable, and compliant life-support
+solutions tailored to mission-critical requirements.
+PSC
+W023
+W099
+W045
+< PRICE INDEX
+TEMPORARY123  |  Rental price book 18 / 19
+
+=== PAGE 19 ===
+Client: Portsmouth Naval Shipyard
+Location: Peterborough, NH 03458
+Duration: November 2022 – November 2023
+Estimated Contract Value: $130,000
+Contract Number: #228630546
+Scope of Work: Provided ongoing temporary facility support services, including
+equipment rental, logistics, and maintenance to meet operational needs at the naval
+shipyard. Services are being delivered in accordance with contract terms and
+performance standards.
+Status: Completed
+Client Contact: Rebecca Brown | becky@swan2b.com | (518) 675-0904
+PAST PERFORMANCE
++1 310-821-4490
+sales@temporarykitchens123.com
+www.temporary123.com
+Client: United States Coast Guard – Department of Homeland Security
+Location: Riviera Beach, Florida
+Duration: May 2026-July 2026
+Contract Value: $78,500.00
+Contract Number: 70Z02826FMIAM0008
+Scope of Work: Temporary 123, Inc. provided turnkey temporary housing and sanitation
+services for U.S. Coast Guard operations at Station Lake Worth Inlet, Florida. Services
+included climate-controlled berthing, restroom/shower trailers, water and wastewater
+support, maintenance, and demobilization while ensuring safe, reliable operations.
+Client Contact: Chief Marissa Massey | Marissa.A.Massey@uscg.mil
+Client: Environmental Chemical Corporation (ECC)
+Location: 1235 Birch Street, Camp Lejeune, NC 28547
+Duration: May 2020 – October 2021 (1 year)
+Contract Value: $239,760
+Contract Number: #6459
+Scope of Work: Delivered and maintained temporary housing and support facilities to meet
+operational requirements at Camp Lejeune. Services were provided for a full 12-month term,
+completed successfully and in full compliance with client expectations.
+Status: Completed
+Client Contact: ECC Team | invoices.camplejeune@ecc.net | (252) 503-9329
+Client: City of Denver, Colorado
+Location: Denver, Colorado
+Duration: August 2026 - Ongoing
+Contract Value: ~$100,00.00
+Contract Number: SC-00011558
+Scope of Work: Awarded a Multi-year contract with the City and County of Denver to
+provide, deliver, and service climate-controlled portable restroom trailers for summer
+and cold-weather shelter operations. Services include mobilization, cleaning, pump-outs,
+waste disposal, supplies, maintenance, and demobilization, supporting shelter
+populations of up to 500 people.
+Client Contact: Patrick Cassey | patrick.casey@denvergov.org
+< PRICE INDEX
+TEMPORARY123  |  Rental price book 19 / 19

@@ -2,11 +2,15 @@
 
 Read the main pricing/source guide for book rates. Use these additional rules when billing units or offered equipment differ from the solicitation.
 
-## Recurring service and conversion
+## Standing service basis and frequency
 
-“Every two weeks” means a 14-day cycle. It is not twice monthly. A calendar may contain a different number of visits than a rough annual allowance; use actual dates for quantity estimates when known. If the buyer requires a fixed monthly rate, do not place a per-visit price in that field.
+The user approved this standing rule on **November 15, 2026**: standalone service prices are **per visit**; recommend **two visits per month** when the contract does not state frequency. The [rental pricing guide](rental-pricing-guide.md) and [catalog](../assets/pricing/rate-catalog.json) record that authority separately from PDF rate provenance.
 
-Explain the proposed conversion and its visit-count basis, and obtain a monthly-rate decision when the user has approved only a per-visit amount. Once the user approves a fixed monthly price covering the required cycle, use it without inserting a new visit cap or an unsupported extra-service surcharge. Confirm optional-year rate treatment separately if it is not established.
+Apply an explicit contract frequency or current project-approved plan before this recommendation. Two visits/month means twice monthly; it is not every two weeks. For a 14-day, weekly, daily, per-activation or on-demand requirement, use the actual cycle and performance dates. Do not replace it with two visits/month.
+
+Extend a known visit amount by the actual service-unit count and visit count. A $600 visit at the recommended two visits/month is $1,200/month per applicable service unit; no new approval is needed for that standing calculation. A monthly pricing form gets the extended monthly amount and stated visit basis, not an unconverted per-visit price. An unpriced service amount, unsupported cycle conversion or additional commitment still needs its own answer. Once a fixed monthly service price is approved for a required cycle, do not impose an invented visit cap or surcharge.
+
+This default does not relabel equipment-with-service offerings as standalone service amounts, invent cleaning/restocking dollar rates, or override explicit staffing/day, consumables/week and accessory/month prices. Preserve service inclusions and avoid counting an included pump-out twice. Existing project-specific approved prices remain scoped to their projects.
 
 ## Buyer pricing forms and deviations
 

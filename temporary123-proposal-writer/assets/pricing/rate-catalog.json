@@ -1,0 +1,1559 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "updated_on": "2026-11-15",
+  "source": {
+    "original_filename": "Temporary123_Rental_Price_Book (8) 1.pdf",
+    "original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea",
+    "original_pages": 19,
+    "received_on": "2026-11-15",
+    "price_effective_date": null,
+    "reading_copy": "../rental-price-book-reading-copy.pdf",
+    "source_scope": "Pricing pages 1-15. Personnel 16 and company 17-19 are separate evidence, not rate or current qualification authority.",
+    "privacy": "Original page 17 is confidential and omitted/replaced in shared PDF; no tax identifier or SSN is retained here."
+  },
+  "policies": {
+    "authority_order": [
+      "Current project-specific user-approved quote or override",
+      "Explicit contract billing and service requirements",
+      "This normalized catalog with its source pages and user defaults"
+    ],
+    "event": {
+      "key": "event_1_3_days",
+      "minimum_days": 1,
+      "maximum_days": 3,
+      "unit": "one event rental covering 1-3 days",
+      "published_relation_to_week": 0.8,
+      "daily_proration_allowed": false
+    },
+    "week": {
+      "key": "week",
+      "unit": "one rental week",
+      "daily_proration_allowed": false
+    },
+    "month": {
+      "key": "month",
+      "unit": "one rental month",
+      "assumed_days_per_month": null,
+      "daily_proration_allowed": false
+    },
+    "service_default": {
+      "price_basis": "per_visit",
+      "recommended_visits_per_month": 2,
+      "contract_frequency_overrides": true,
+      "authority": "User instruction in this chat on 2026-11-15",
+      "status": "approved standing planning default",
+      "scope": "Standalone service charges such as pumping, cleaning and restocking when no explicit service unit is established. Retain explicit staffing, rental, weekly consumable, per-mile and per-person/day units.",
+      "recommended_monthly_cost_formula": "service unit count x per-visit rate x 2",
+      "not_equivalent_to_every_two_weeks": true,
+      "does_not_create_new_service_prices": true
+    },
+    "unknown_price": "Return supported subtotals and missing component(s); never zero for unknown or assign a rental period silently.",
+    "product_identity": "A priced product family may be recommended without a physical inventory ItemID. Do not invent make/model or require optional model fields absent a buyer requirement. Validate material compliance and actual availability separately.",
+    "transport_three_month_boundary": "Exactly three months requires an approved transport rate.",
+    "do_not_derive": [
+      "Daily rental rates from event/week/month prices",
+      "Unlisted tank-capacity pricing",
+      "Standalone service rates by subtracting portable with/without-service prices",
+      "Historical project prices as universal rates",
+      "Tax, escalation, cancellation or discount policies not supplied"
+    ]
+  },
+  "items": [
+    {
+      "id": "combo-13ft-3-stall",
+      "name": "13 ft shower and restroom combination trailer, 3 stalls",
+      "family": "shower_restroom_combo",
+      "kind": "equipment_rental",
+      "aliases": [
+        "combination trailer",
+        "shower restroom combo"
+      ],
+      "rates": {
+        "event_1_3_days": 2796,
+        "week": 3495,
+        "month": 3995
+      },
+      "source_pages": [
+        1,
+        3
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 13,
+        "standard_stalls": 3,
+        "ada_stalls": 0
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 30,
+        "toilet_users": 55,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "combo-22ft-6-stall",
+      "name": "22 ft shower and restroom combination trailer, 6 stalls",
+      "family": "shower_restroom_combo",
+      "kind": "equipment_rental",
+      "aliases": [
+        "combination trailer",
+        "shower restroom combo"
+      ],
+      "rates": {
+        "event_1_3_days": 3196,
+        "week": 3995,
+        "month": 4995
+      },
+      "source_pages": [
+        1,
+        3
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 22,
+        "standard_stalls": 6,
+        "ada_stalls": 0
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 60,
+        "toilet_users": 150,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "combo-22ft-4-plus-ada",
+      "name": "22 ft shower and restroom combination trailer, 4 stalls plus 1 ADA",
+      "family": "shower_restroom_combo",
+      "kind": "equipment_rental",
+      "aliases": [
+        "combination trailer",
+        "shower restroom combo"
+      ],
+      "rates": {
+        "event_1_3_days": 3596,
+        "week": 4495,
+        "month": 5495
+      },
+      "source_pages": [
+        1,
+        3
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 22,
+        "standard_stalls": 4,
+        "ada_stalls": 1
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 50,
+        "toilet_users": 110,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "combo-30ft-8-stall",
+      "name": "30 ft shower and restroom combination trailer, 8 stalls",
+      "family": "shower_restroom_combo",
+      "kind": "equipment_rental",
+      "aliases": [
+        "combination trailer",
+        "shower restroom combo"
+      ],
+      "rates": {
+        "event_1_3_days": 3996,
+        "week": 4995,
+        "month": 5995
+      },
+      "source_pages": [
+        1,
+        3
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 30,
+        "standard_stalls": 8,
+        "ada_stalls": 0
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 80,
+        "toilet_users": 230,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "combo-39ft-8-plus-ada",
+      "name": "39 ft shower and restroom combination trailer, 8 stalls plus 1 ADA",
+      "family": "shower_restroom_combo",
+      "kind": "equipment_rental",
+      "aliases": [
+        "combination trailer",
+        "shower restroom combo"
+      ],
+      "rates": {
+        "event_1_3_days": 4796,
+        "week": 5995,
+        "month": 6995
+      },
+      "source_pages": [
+        1,
+        3
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 39,
+        "standard_stalls": 8,
+        "ada_stalls": 1
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 90,
+        "toilet_users": 270,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "shower-20ft-10-stall",
+      "name": "20 ft shower-only trailer, 10 stalls",
+      "family": "shower_only",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 5596,
+        "week": 6995,
+        "month": 8995
+      },
+      "source_pages": [
+        1,
+        5
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 20,
+        "shower_stalls": 10,
+        "toilets_included": false
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "planning_allowances": {
+        "shower_people_per_shift": 100,
+        "toilet_users": null,
+        "qualification": "Source fixture-count planning allowance only; allocation by sex, actual fixtures, utilities, access and servicing apply. Not verified occupancy or guaranteed site capacity."
+      },
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "laundry-8-10",
+      "name": "Laundry trailer, 8-10 washers and dryers",
+      "family": "laundry",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 4796,
+        "week": 5995,
+        "month": 7995
+      },
+      "source_pages": [
+        1,
+        10
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "washer_dryer_count_source_label": "8-10 washers / dryers"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "kitchen-28ft",
+      "name": "28 ft mobile kitchen trailer",
+      "family": "kitchen",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 6396,
+        "week": 7995,
+        "month": 9995
+      },
+      "source_pages": [
+        1,
+        11
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 28
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "kitchen-40ft",
+      "name": "40 ft mobile kitchen trailer",
+      "family": "kitchen",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 7196,
+        "week": 8995,
+        "month": 10995
+      },
+      "source_pages": [
+        1,
+        11
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 40
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "kitchen-40ft-bulk",
+      "name": "40 ft bulk kitchen trailer",
+      "family": "kitchen",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 7996,
+        "week": 9995,
+        "month": 12995
+      },
+      "source_pages": [
+        1,
+        11
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 40,
+        "variant": "bulk"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "dishwash-22-26ft-low-temp",
+      "name": "22-26 ft low-temperature dishwashing trailer",
+      "family": "dishwashing",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 3996,
+        "week": 4995,
+        "month": 6995
+      },
+      "source_pages": [
+        1,
+        12
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft_range": [
+          22,
+          26
+        ],
+        "variant": "low temperature"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "dishwash-38ft-conveyor",
+      "name": "38 ft conveyor dishwashing trailer",
+      "family": "dishwashing",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 5596,
+        "week": 6995,
+        "month": 8995
+      },
+      "source_pages": [
+        1,
+        12
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 38,
+        "variant": "conveyor"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "sleeper-container-20ft",
+      "name": "20 ft sleeper container, sleeps 1-6 people",
+      "family": "sleeper",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 2396,
+        "week": 2995,
+        "month": 3495
+      },
+      "source_pages": [
+        1,
+        13
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 20,
+        "published_sleeping_range": [
+          1,
+          6
+        ],
+        "form": "container"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "sleeper-trailer-40ft",
+      "name": "40 ft sleeper trailer, sleeps 4-16 people",
+      "family": "sleeper",
+      "kind": "equipment_rental",
+      "aliases": [],
+      "rates": {
+        "event_1_3_days": 3996,
+        "week": 4995,
+        "month": 5995
+      },
+      "source_pages": [
+        1,
+        13
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "configuration": {
+        "length_ft": 40,
+        "published_sleeping_range": [
+          4,
+          16
+        ],
+        "form": "trailer"
+      },
+      "rate_scope": "per rental unit",
+      "service_inclusion": "Not established by rental-rate table",
+      "technical_evidence": "Published product family and configuration; use inventory for an actual asset when needed; no live availability established.",
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-standard",
+      "name": "Standard portable restroom",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        8
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 200,
+      "published_billing_period": null,
+      "published_estimate": false,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "Unspecified on page 8",
+      "published_family_features": [
+        "Non-flushing toilet",
+        "Hand-sanitizer dispenser",
+        "Basic interior"
+      ],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-standard-with-service",
+      "name": "Standard porta-potty with service estimate",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        7
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period",
+        "included_service_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 200,
+      "published_billing_period": null,
+      "published_estimate": true,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "With service; exact included work unspecified",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-deluxe-without-service",
+      "name": "Deluxe portable restroom without service",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        8
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 350,
+      "published_billing_period": null,
+      "published_estimate": false,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "Without service",
+      "published_family_features": [
+        "Flushable toilet with concealed waste",
+        "Built-in handwashing sink",
+        "Mirror, shelf and coat hooks"
+      ],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-deluxe-with-service",
+      "name": "Deluxe portable restroom with service",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        8
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period",
+        "included_service_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 450,
+      "published_billing_period": null,
+      "published_estimate": false,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "With service; exact included work unspecified",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-ada-without-service",
+      "name": "ADA portable restroom without service",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        8
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 500,
+      "published_billing_period": null,
+      "published_estimate": false,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "Without service",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "portable-ada-with-service",
+      "name": "ADA portable restroom with service",
+      "family": "portable_restroom",
+      "kind": "equipment_rental",
+      "aliases": [
+        "porta potty",
+        "porta-potty",
+        "portable toilet",
+        "portable restroom"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        8
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period",
+        "included_service_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 600,
+      "published_billing_period": null,
+      "published_estimate": false,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "With service; exact included work unspecified",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "handwash-double-without-service",
+      "name": "Double-sided portable handwashing station without service",
+      "family": "portable_handwash",
+      "kind": "equipment_rental",
+      "aliases": [
+        "hand washing",
+        "portable sink",
+        "handwash station"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        7
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 90,
+      "published_billing_period": null,
+      "published_estimate": true,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "Without service",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "handwash-double-with-service",
+      "name": "Double-sided portable handwashing station with service",
+      "family": "portable_handwash",
+      "kind": "equipment_rental",
+      "aliases": [
+        "hand washing",
+        "portable sink",
+        "handwash station"
+      ],
+      "rates": {
+        "event_1_3_days": null,
+        "week": null,
+        "month": null
+      },
+      "source_pages": [
+        7
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "rental_billing_period",
+        "included_service_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "billing_period_unconfirmed",
+      "rate_basis_authority": "price_book",
+      "published_amount": 140,
+      "published_billing_period": null,
+      "published_estimate": true,
+      "rate_scope": "per portable unit; rental period unresolved",
+      "service_inclusion": "With service; exact included work unspecified",
+      "published_family_features": [],
+      "qualifications": [
+        "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+      ],
+      "identity_level": "published_catalog_configuration",
+      "inventory_item_id": null
+    },
+    {
+      "id": "pump-restroom-300",
+      "name": "Restroom-only 300-gallon tank pump-out",
+      "family": "wastewater_service",
+      "kind": "service",
+      "aliases": [],
+      "rates": {
+        "per_visit": 600
+      },
+      "source_pages": [
+        2,
+        9
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "User instruction 2026-11-15: service prices are per visit",
+      "rate_scope": "per visit for the specified 300-gallon tank or bladder",
+      "tank_or_bladder_gallons": 300,
+      "qualifications": [
+        "Confirm actual tank connection and service unit count; do not extrapolate to an unlisted capacity."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "pump-shower-700",
+      "name": "700-gallon shower bladder pump-out",
+      "family": "wastewater_service",
+      "kind": "service",
+      "aliases": [],
+      "rates": {
+        "per_visit": 800
+      },
+      "source_pages": [
+        2,
+        9
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [
+        "pump-restroom-300"
+      ],
+      "source_status": "published",
+      "rate_basis_authority": "User instruction 2026-11-15: service prices are per visit",
+      "rate_scope": "per visit for the specified 700-gallon tank or bladder",
+      "tank_or_bladder_gallons": 700,
+      "qualifications": [
+        "Confirm actual tank connection and service unit count; do not extrapolate to an unlisted capacity.",
+        "Includes the 300-gallon restroom tank pump-out associated with the same shower-bladder service. Do not bill it twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "pump-shower-2500",
+      "name": "2,500-gallon shower bladder pump-out",
+      "family": "wastewater_service",
+      "kind": "service",
+      "aliases": [],
+      "rates": {
+        "per_visit": 1500
+      },
+      "source_pages": [
+        2,
+        9
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [
+        "pump-restroom-300"
+      ],
+      "source_status": "published",
+      "rate_basis_authority": "User instruction 2026-11-15: service prices are per visit",
+      "rate_scope": "per visit for the specified 2,500-gallon tank or bladder",
+      "tank_or_bladder_gallons": 2500,
+      "qualifications": [
+        "Confirm actual tank connection and service unit count; do not extrapolate to an unlisted capacity.",
+        "Includes the 300-gallon restroom tank pump-out associated with the same shower-bladder service. Do not bill it twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "pump-shower-5000",
+      "name": "5,000-gallon shower bladder pump-out",
+      "family": "wastewater_service",
+      "kind": "service",
+      "aliases": [],
+      "rates": {
+        "per_visit": 3000
+      },
+      "source_pages": [
+        2,
+        9
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [
+        "pump-restroom-300"
+      ],
+      "source_status": "published",
+      "rate_basis_authority": "User instruction 2026-11-15: service prices are per visit",
+      "rate_scope": "per visit for the specified 5,000-gallon tank or bladder",
+      "tank_or_bladder_gallons": 5000,
+      "qualifications": [
+        "Confirm actual tank connection and service unit count; do not extrapolate to an unlisted capacity.",
+        "Includes the 300-gallon restroom tank pump-out associated with the same shower-bladder service. Do not bill it twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "mobilization-trailer",
+      "name": "Trailer mobilization and setup",
+      "family": "logistics",
+      "kind": "setup",
+      "aliases": [],
+      "rates": {
+        "per_trailer_event": 1500
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per trailer per mobilization",
+      "includes": [
+        "Leveling",
+        "Setup",
+        "Power and water hookup"
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "demobilization-trailer",
+      "name": "Trailer demobilization",
+      "family": "logistics",
+      "kind": "setup",
+      "aliases": [],
+      "rates": {
+        "per_trailer_event": 1500
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per trailer per demobilization",
+      "includes": [
+        "Disconnect trailer connections"
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "delivery-under-3-months",
+      "name": "Trailer delivery, rental under 3 months",
+      "family": "logistics",
+      "kind": "transport",
+      "aliases": [],
+      "rates": {
+        "per_mile": 4
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "chargeable_mileage_origin_and_distance",
+        "transport_unit_count_if_multiple_trailers"
+      ],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per chargeable mile for the specified direction",
+      "condition": "continuous rental under 3 months",
+      "qualifications": [
+        "Do not apply trailer transport pricing automatically to freestanding portable units."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "delivery-over-3-months",
+      "name": "Trailer delivery, rental over 3 months",
+      "family": "logistics",
+      "kind": "transport",
+      "aliases": [],
+      "rates": {
+        "per_trailer_event": 1495
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per trailer for the specified direction",
+      "condition": "continuous rental over 3 months",
+      "qualifications": [
+        "Exactly 3 months is not covered by this rate. A multi-year umbrella does not establish continuous rental for each order."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "pickup-under-3-months",
+      "name": "Trailer pickup, rental under 3 months",
+      "family": "logistics",
+      "kind": "transport",
+      "aliases": [],
+      "rates": {
+        "per_mile": 4
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "chargeable_mileage_origin_and_distance",
+        "transport_unit_count_if_multiple_trailers"
+      ],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per chargeable mile for the specified direction",
+      "condition": "continuous rental under 3 months",
+      "qualifications": [
+        "Do not apply trailer transport pricing automatically to freestanding portable units."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "pickup-over-3-months",
+      "name": "Trailer pickup, rental over 3 months",
+      "family": "logistics",
+      "kind": "transport",
+      "aliases": [],
+      "rates": {
+        "per_trailer_event": 1495
+      },
+      "source_pages": [
+        2,
+        14
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per trailer for the specified direction",
+      "condition": "continuous rental over 3 months",
+      "qualifications": [
+        "Exactly 3 months is not covered by this rate. A multi-year umbrella does not establish continuous rental for each order."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "staff-attendant-standard",
+      "name": "Onsite attendant, standard",
+      "family": "onsite_staffing",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 700
+      },
+      "source_pages": [
+        2,
+        6,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day, 4-8 hours",
+      "qualifications": [
+        "Explicit staffing day rate; not a twice-monthly service visit.",
+        "After 8 hours the source states an additional 20% per overtime hour; base and calculation method require a quote decision."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "staff-attendant-weekend-holiday-emergency",
+      "name": "Onsite attendant, weekend-holiday-emergency",
+      "family": "onsite_staffing",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 900
+      },
+      "source_pages": [
+        2,
+        6
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day, 4-8 hours",
+      "qualifications": [
+        "Explicit staffing day rate; not a twice-monthly service visit.",
+        "After 8 hours the source states an additional 20% per overtime hour; base and calculation method require a quote decision."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "staff-manager-standard",
+      "name": "Onsite manager, standard",
+      "family": "onsite_staffing",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 1000
+      },
+      "source_pages": [
+        2,
+        6,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day, 4-8 hours",
+      "qualifications": [
+        "Explicit staffing day rate; not a twice-monthly service visit.",
+        "After 8 hours the source states an additional 20% per overtime hour; base and calculation method require a quote decision."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "staff-manager-weekend-holiday-emergency",
+      "name": "Onsite manager, weekend-holiday-emergency",
+      "family": "onsite_staffing",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 1300
+      },
+      "source_pages": [
+        2,
+        6
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day, 4-8 hours",
+      "qualifications": [
+        "Explicit staffing day rate; not a twice-monthly service visit.",
+        "After 8 hours the source states an additional 20% per overtime hour; base and calculation method require a quote decision."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "consumables-trailer-week",
+      "name": "Trailer consumables",
+      "family": "support",
+      "kind": "consumable",
+      "aliases": [],
+      "rates": {
+        "week": 100
+      },
+      "source_pages": [
+        2,
+        6
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per trailer per week",
+      "includes": [
+        "Toilet paper",
+        "Hand soap",
+        "Paper towels",
+        "Trash liners"
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "bladder-hoses-2500",
+      "name": "2,500-gallon bladder and hoses package",
+      "family": "support",
+      "kind": "accessory_rental",
+      "aliases": [],
+      "rates": {
+        "month": 695
+      },
+      "source_pages": [
+        2,
+        6
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per package per month",
+      "footprint": "18 ft x 12 ft",
+      "qualifications": [
+        "Accessory rental is separate from its per-visit pumping rate; avoid adding consumables twice where a quoted package includes them."
+      ],
+      "identity_level": "published_catalog_configuration"
+    },
+    {
+      "id": "bladder-hoses-5000",
+      "name": "5,000-gallon bladder and hoses package",
+      "family": "support",
+      "kind": "accessory_rental",
+      "aliases": [],
+      "rates": {
+        "month": 895
+      },
+      "source_pages": [
+        2,
+        6
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per package per month",
+      "footprint": "20 ft x 20 ft",
+      "qualifications": [
+        "Accessory rental is separate from its per-visit pumping rate; avoid adding consumables twice where a quoted package includes them."
+      ],
+      "identity_level": "published_catalog_configuration"
+    },
+    {
+      "id": "mancamp-without-food-standard",
+      "name": "Man-camp package without food, standard",
+      "family": "man_camp",
+      "kind": "man_camp",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 175
+      },
+      "source_pages": [
+        1,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day",
+      "minimum_people": 150,
+      "qualifications": [
+        "Staffing is additional. Confirm actual package inclusions and site logistics; do not charge already-included equipment twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "mancamp-without-food-emergency",
+      "name": "Man-camp package without food, emergency",
+      "family": "man_camp",
+      "kind": "man_camp",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 220
+      },
+      "source_pages": [
+        1,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day",
+      "minimum_people": 150,
+      "qualifications": [
+        "Staffing is additional. Confirm actual package inclusions and site logistics; do not charge already-included equipment twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "mancamp-with-food-standard",
+      "name": "Man-camp package with food, standard",
+      "family": "man_camp",
+      "kind": "man_camp",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 260
+      },
+      "source_pages": [
+        1,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day",
+      "minimum_people": 150,
+      "qualifications": [
+        "Staffing is additional. Confirm actual package inclusions and site logistics; do not charge already-included equipment twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "mancamp-with-food-emergency",
+      "name": "Man-camp package with food, emergency",
+      "family": "man_camp",
+      "kind": "man_camp",
+      "aliases": [],
+      "rates": {
+        "per_person_day": 350
+      },
+      "source_pages": [
+        1,
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per person per day",
+      "minimum_people": 150,
+      "qualifications": [
+        "Staffing is additional. Confirm actual package inclusions and site logistics; do not charge already-included equipment twice."
+      ],
+      "identity_level": "published_charge"
+    },
+    {
+      "id": "security-armed-8h",
+      "name": "Optional armed security, 8-hour service period",
+      "family": "security",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_8_hours": 1600
+      },
+      "source_pages": [
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "guard_count_and_coverage_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per 8-hour service period; source does not specify guard count",
+      "identity_level": "published_charge",
+      "qualifications": [
+        "Do not assume a per-guard rate, 24-hour coverage or a daily price. Establish actual security coverage."
+      ]
+    },
+    {
+      "id": "security-unarmed-8h",
+      "name": "Optional unarmed security, 8-hour service period",
+      "family": "security",
+      "kind": "staffing",
+      "aliases": [],
+      "rates": {
+        "per_8_hours": 1150
+      },
+      "source_pages": [
+        15
+      ],
+      "currency": "USD",
+      "unresolved_fields": [
+        "guard_count_and_coverage_scope"
+      ],
+      "includes_item_ids": [],
+      "source_status": "published",
+      "rate_basis_authority": "price_book",
+      "rate_scope": "per 8-hour service period; source does not specify guard count",
+      "identity_level": "published_charge",
+      "qualifications": [
+        "Do not assume a per-guard rate, 24-hour coverage or a daily price. Establish actual security coverage."
+      ]
+    }
+  ],
+  "unpriced_required_components": [
+    "Portable rental event/week/month basis until clarified",
+    "Freestanding portable-unit delivery and pickup",
+    "Standalone portable-unit cleaning/restocking price if not included",
+    "Taxes and other applicable charges",
+    "Short-notice/holiday/cancellation fees where not explicitly priced",
+    "Staff overtime calculation basis",
+    "Exactly-three-month trailer transportation"
+  ],
+  "company_appendix_notes": {
+    "personnel_page": 16,
+    "confidential_company_page": 17,
+    "capability_pages": [
+      18,
+      19
+    ],
+    "rule": "Use existing company-snapshot and authorized current company sources. Do not treat source marketing claims as current SAM/GSA/insurance/certification proof, and do not copy sensitive company identifiers.",
+    "personnel_conflicts": "Page 16 lists a direct Laine mailbox and an alternate Kermit mailbox, while current company material lists shared contract/sales mailboxes. Preserve source context; do not silently override current selected business contacts.",
+    "source_service_cycle": "Page 16 role description mentions service every two weeks. That is a source narrative, not a universal contract requirement; the user-approved two-visits/month recommendation applies only when contract frequency is silent."
+  },
+  "man_camp_staffing_rules": {
+    "source_pages": [
+      15
+    ],
+    "additional_to_package": true,
+    "scheduled_days_per_week": 5,
+    "rules": [
+      {
+        "minimum_trailers": 11,
+        "maximum_trailers": 20,
+        "roles": [
+          {
+            "catalog_item_id": "staff-attendant-standard",
+            "quantity": 1
+          }
+        ],
+        "daily_staffing_amount": 700
+      },
+      {
+        "minimum_trailers": 21,
+        "maximum_trailers": null,
+        "roles": [
+          {
+            "catalog_item_id": "staff-attendant-standard",
+            "quantity": 1
+          },
+          {
+            "catalog_item_id": "staff-manager-standard",
+            "quantity": 1
+          }
+        ],
+        "daily_staffing_amount": 1700
+      }
+    ],
+    "ten_or_fewer_trailers": "Staffing arrangement/price not stated; do not assume zero.",
+    "day_count": "Use actual scheduled working days, five per week as sourced unless the contract/project plan changes it; do not price every calendar day automatically."
+  },
+  "family_descriptions": {
+    "shower_restroom_combo": {
+      "source_pages": [
+        4
+      ],
+      "published_features": [
+        "Showers, toilets and sinks",
+        "Individual locking compartments",
+        "Hot showers",
+        "Heating and air conditioning",
+        "Lighting and finished interiors",
+        "Audio system"
+      ],
+      "qualification": "Generic family marketing description; not proof every offered unit has each feature or meets a named standard."
+    }
+  },
+  "personnel_source_records": [
+    {
+      "name": "Kermit Pemberton",
+      "source_role": "CEO / Owner, authorized representative",
+      "source_page": 16
+    },
+    {
+      "name": "Laine Lopez",
+      "source_role": "Government Contracting Specialist, bid and contract administration",
+      "source_page": 16
+    },
+    {
+      "name": "Shayne Neric",
+      "source_role": "National Sales Manager, project management",
+      "source_page": 16
+    },
+    {
+      "name": "Jesus Cazares",
+      "source_role": "Field service lead and backup",
+      "source_page": 16
+    },
+    {
+      "name": "Hazel Ligon",
+      "source_role": "Accounting",
+      "source_page": 16
+    }
+  ]
+}

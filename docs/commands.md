@@ -49,6 +49,22 @@ python tools/manage.py doctor
 
 Read the reported paths and available dependencies before choosing a workflow. Diagnostics do not install software, connect accounts, grant permissions, or activate a skill in a host session.
 
+## Look up prices and calculate quotes
+
+```sh
+python temporary123-proposal-writer/scripts/pricing.py find --query shower --limit 5
+python temporary123-proposal-writer/scripts/pricing.py show --id combo-13ft-3-stall
+python temporary123-proposal-writer/scripts/pricing.py quote --input /absolute/path/quote-request.json
+```
+
+The [pricing guide](../temporary123-proposal-writer/references/rental-pricing-guide.md) explains the catalog and units. A request contains a `lines` array. Rental lines use `item_id`, `rate_key`, `quantity` and `periods`; service `per_visit` lines use explicit `visits`, or whole `months` for the standing two-visits/month recommendation when the contract is silent. Unknown requested rates produce an incomplete result with a known subtotal and no final total. These calculations do not establish that all required charges are present, equipment is available or the quote complies with the buyer's requirements.
+
+```json
+{"lines":[{"item_id":"combo-13ft-3-stall","rate_key":"month","quantity":1,"periods":4},{"item_id":"pump-restroom-300","rate_key":"per_visit","quantity":1,"months":4}]}
+```
+
+Use actual service units rather than copying trailer count automatically. If the same restroom pump-out is included in a shower-bladder visit, identify the shared `coverage_group` and remove duplicate charges. Do not derive daily or unspecified portable rental periods. Partial months need an explicit approved billing basis or actual visit count.
+
 ## Look up inventory
 
 ```sh

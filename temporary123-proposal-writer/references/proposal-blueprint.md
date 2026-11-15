@@ -62,7 +62,7 @@ Explain equipment availability, delivery lead time, regional support and depende
 
 ## 3. Equipment Specifications
 
-Use the [inventory specification lookup](inventory-specifications.md) first for the actual asset/model facts and retain ItemID plus workbook sheet/cell sources. Resolve its missing fields and identity conflicts before claiming the affected feature. Use the price book for matching prices and the photo catalog for visuals; neither fills an unsupported technical field.
+Use the [inventory specification lookup](inventory-specifications.md) first for actual asset/model facts and retain ItemID plus workbook sheet/cell sources where available. A supported [catalog family](rental-pricing-guide.md) can be proposed without an exact ItemID; do not invent optional make/model placeholders or treat them as mandatory unless the buyer or actual compliance need requires them. Resolve its missing fields and identity conflicts before claiming the affected feature. Use the price book for matching prices and the photo catalog for visuals; neither fills an unsupported technical field.
 
 Create a subsection for each offered equipment type. The example uses **Sleeper/Quarters/Berthing Trailers** and **Restroom with Shower Trailers**; replace or expand them for the new scope.
 
@@ -75,7 +75,7 @@ Introduce the price basis, period covered and defined scope. Use the buyer's req
 | Line item | Description | Quantity | Unit/billing basis | Unit price | Extended price |
 |---|---|---|---|---|---|
 
-Read [pricing-and-company-sources.md](pricing-and-company-sources.md) and match rates to the retained user-supplied price book before filling the table. Candidate rows are delivery, pickup, each equipment rental, routine servicing, mobilization/setup and demobilization. Include rows only when applicable; explain what setup covers when transport is charged separately. Add total and supported quote terms. Reconcile quantities, rental term and number of service visits with the technical approach. Populate supported prices, flag unsupported components, and retain a source-page calculation record outside the proposal. The old $51,990 total is not a default quote.
+Use the [normalized pricing guide](rental-pricing-guide.md), [rate catalog](../assets/pricing/rate-catalog.json) and [pricing/source rules](pricing-and-company-sources.md) before filling the table. Show supported extensions and subtotals even when some costs remain open. Standalone service is per visit, with two visits/month recommended when the contract is silent; explicit contract cycles override it. Candidate rows are delivery, pickup, each equipment rental, routine servicing, mobilization/setup and demobilization. Include rows only when applicable; explain what setup covers when transport is charged separately. Add total and supported quote terms. Reconcile quantities, rental term and number of service visits with the technical approach. Populate supported prices, flag unsupported components, and retain a source-page calculation record outside the proposal. The old $51,990 total is not a default quote.
 
 ## 5. Past Performance
 

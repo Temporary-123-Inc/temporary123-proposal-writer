@@ -6,6 +6,8 @@ Use these bundled resources first for company product specifications and asset i
 - [Original inventory workbook](../assets/inventory/temporary123-inventory-and-specifications.xlsx): unchanged user-supplied `Temporary123_Complete_Inventory_and_Specifications .xlsx`; inspect the cited source cells when needed.
 - [Inventory helper](../scripts/inventory.py): standard-library lookup and integrity-verification commands; use it rather than loading unrelated operational workbook data for a technical search.
 
+A missing physical record does not erase a product family listed in the [rate catalog](../assets/pricing/rate-catalog.json). Use its supported family label for a proposed mix, while keeping exact-model claims, material compliance and availability separate. Do not add optional manufacturer/model/dimensions as mandatory buyer fields solely because this lookup lacks them.
+
 The workbook is a November 3, 2026 snapshot. A current approved model-specific user update or newer verified specification may supersede it; identify the exact ItemID/model, source/date and changed field, and resolve conflicting evidence explicitly. The solicitation defines required specifications, not proof of what an offered unit has. Keep the [price book and pricing rules](pricing-and-company-sources.md) as pricing authority, and the [photo catalog/image workflow](trailer-images.md) as primary visual discovery. Neither a price nor a generic image category fills a missing technical specification.
 
 ## Lookup usage and record structure

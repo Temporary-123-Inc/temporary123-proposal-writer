@@ -40,7 +40,7 @@ Change a business rule once in the canonical skill or its shared reference. An a
 
 ## Sources and derived data
 
-The original 32 MB price book is preserved unchanged at `source-archives/temporary123-rental-price-book.pdf`. The installed runtime uses the approximately 4 MB `assets/rental-price-book-reading-copy.pdf` plus its text extraction. The reading copy retains all 15 pages, 13 embedded images, and identical page text. Other retained assets include the original proposal/cover-letter and style references, company documents, image catalog, approved images, inventory workbook, and technical index.
+The current 19-page price book was supplied November 15, 2026. Its raw original remains outside Git because page 17 contains confidential tax identifiers. `source-archives/temporary123-rental-price-book-2026-11-15-sanitized.pdf` and runtime `assets/rental-price-book-reading-copy.pdf` replace that whole page and retain all 19 page positions. The searchable text includes manually verified image-page pricing content. The normalized `assets/pricing/rate-catalog.json` and `references/rental-pricing-guide.md` distinguish published values, unresolved rental units and the user-approved per-visit/two-visits-month service policy. `scripts/pricing.py` calculates explicit source-backed lines and supported partial subtotals. The earlier unchanged 15-page source remains in `source-archives/temporary123-rental-price-book.pdf` as legacy provenance. Other retained assets include the original proposal/cover-letter and style references, company documents, image catalog, approved images, inventory workbook, and technical index.
 
 The original inventory is a November 3, 2026 snapshot with 174 records, of which 173 have names. Its technical JSON helper retains ItemIDs and workbook cell locators and excludes operational/access/client/driver/tracker fields. The original workbook remains internal evidence. Neither a snapshot nor a model photograph establishes current availability. Consult [inventory specifications](../temporary123-proposal-writer/references/inventory-specifications.md) for interpretation and conflict handling.
 
@@ -48,7 +48,7 @@ Source hashes, dates, limitations, and transformations are recorded in [source p
 
 ## Portability and verification
 
-The full runtime is approximately 19 MB uncompressed. One ZIP serves Codex and Claude; the repository-only price book is excluded to keep the portable package within Claude's 30 MB API skill limit and OpenAI's 25 MB per-file limit. `package` applies the repository's size and content checks before writing the artifact.
+One ZIP serves Codex and Claude; repository-only archives are excluded to keep the portable package within Claude's 30 MB API skill limit and OpenAI's 25 MB per-file limit. `package` applies the repository's size and content checks before writing the artifact.
 
 Use the host's available document capability first. The packaged Python fallback needs `python-docx`, image work uses `Pillow`, and PDF reading uses `pypdf`. Rendering additionally needs headless LibreOffice and a PDF rendering backend. These are host prerequisites, not bundled installations. See [installation](installation.md) and the [Word workflow](../temporary123-proposal-writer/references/word-workflow.md).
 
