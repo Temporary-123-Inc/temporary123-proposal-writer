@@ -1,19 +1,33 @@
 # Company and reference snapshot
 
-Packaged November 14, 2026. Bundled source PDFs: assets/company/temporary123-capability-statement.pdf and assets/company/certificate-of-status-2024-03-27.pdf. This snapshot supports fallback drafting and does not establish current qualifications. See assets/source-provenance.json for source links, dates and hashes.
+Core snapshot initially packaged November 14, 2026; staffing candidates below use page 16 of the updated price book supplied November 15, 2026. Bundled company PDFs: assets/company/temporary123-capability-statement.pdf and assets/company/certificate-of-status-2024-03-27.pdf. This snapshot supports fallback drafting and does not establish current qualifications. See assets/source-provenance.json for source links, dates and hashes.
 
 These facts came from the supplied company materials, not a live certification check. Reuse their consistent facts in each relevant proposal rather than requesting the same information again. Refresh evidence when current validity matters; ask for a missing or conflicting detail only when the new response actually needs it.
 
 - Legal name: **Temporary 123, Inc.**; business form: California corporation.
 - Address: **333 Washington Blvd., Suite 360, Marina Del Rey, CA 90292**.
 - Website: **www.temporary123.com**.
-- Kermit Pemberton: **(310) 245-6785**, **sales@temporarykitchens123.com**; office **(310) 821-4490**. Supplied company information names him as owner; the retained source cover letter identifies him as President/Director and Owner / Authorized Representative. Reuse the sourced role for draft identity without claiming a new signature or execution authorization.
+- Kermit Pemberton: **(310) 245-6785**, **sales@temporarykitchens123.com**; office **(310) 821-4490**. Supplied company information names him as owner; the current price book's page 16 organization chart identifies him as CEO / Owner and authorized representative. Reuse the sourced identity/role for drafting without claiming a new signature or execution authorization; check any conflict against current authorized company records.
 - Government-contracting contact: **Laine Lopez**, Government Contracting Specialist; **(310) 359-8375**, **contract@temporary123.com**. Use as the proposal contact; a named contract-delivery role needs an actual assignment when required.
 - UEI **REVFD44JLMV5**; CAGE **57C31**, as listed in supplied records. Do not imply current SAM/GSA status.
 - California incorporation recorded **January 6, 2004**. The inspected certificate dated March 27, 2024 does not establish current good standing, business licensing or Texas qualification. Do not conflate a claim of operations since 1998 with incorporation.
 - Supported service narrative: temporary restroom, shower and berthing facilities with related transportation, setup, service and removal. Local depot, fleet, staffing, response times and availability require project-specific evidence.
 
 Do not put taxpayer numbers, bank details, ownership disclosures or payment credentials into the skill. Retrieve them only for actual required forms and handle them in the authorized response context.
+
+## Staffing candidates
+
+The current [price-book reading copy](../assets/rental-price-book-reading-copy.pdf), page 16, and [searchable extraction](../assets/rental-price-book.txt), page 16, provide these organization-chart roles. They are reusable company evidence, not assignments carried over from a proposal.
+
+| Person | Recorded role | Relevant recommendation when a project decision is needed |
+|---|---|---|
+| Kermit Pemberton | Authorized representative, CEO / Owner | Use the sourced identity/role for draft signatory details; ask only about a different representative or genuinely missing authority/details. Do not execute a signature. |
+| Laine Lopez | Government Contracting Specialist; bid and contract administration | Proposal/bid coordination contact. This alone does not establish a field-delivery assignment. |
+| Shayne Neric | National Sales Manager; project management, scheduling and service quality | Candidate for project management, subject to actual assignment and availability. |
+| Jesus Cazares | Field-service lead and backup | Candidate for installation/service coordination, subject to location coverage, actual assignment and availability. |
+| Hazel Ligon | Accounting; invoicing and payment coordination | Candidate billing contact when the response needs one. |
+
+For required key personnel, recommend the supported candidates for the actual work, then ask for assignment/availability, required time allocation and missing résumé fields. Do not ask for all personnel names from scratch. The chart does not establish current qualifications, background clearance, regional coverage, full principal-officer membership or response times. Check contact conflicts against current authorized records; do not silently replace the established proposal contact or copy an uncertain phone number. Follow [questions with evidence and recommendations](decision-questions.md).
 
 ## Existing past-performance records
 

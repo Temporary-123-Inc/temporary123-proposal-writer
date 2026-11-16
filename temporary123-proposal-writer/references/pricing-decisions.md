@@ -1,4 +1,4 @@
-# Project-specific pricing decisions
+# Pricing policies and current-task decisions
 
 Read the main pricing/source guide for book rates. Use these additional rules when billing units or offered equipment differ from the solicitation.
 
@@ -26,14 +26,8 @@ Use exact mandatory rows, units, periods and order. Include all costs required b
 
 Follow buyer rules on alternatives, qualifications and exceptions. If company inventory differs, follow [product and package selection](product-selection.md): compare suitable listed options with proposed values, recommend one and obtain the user's selection unless already supplied or explicitly delegated. Then draft the actual chosen offering, flag the mismatch and identify any required written clarification. Do not change the buyer's stated requirement or claim acceptance because the offered unit is larger. A unit's image or user-approved rental amount does not establish electrical rating, tank capacity, fixtures, new/unused condition or availability.
 
-## Historical worked decision — not a future default
+## Current-task decisions
 
-For Texas DPS `405-27R0001325`, the user specifically approved:
+Use the standing policies above and matching source rates automatically. When a choice, special quote, fixed service conversion or renewal policy remains unresolved, follow [questions with evidence and recommendations](decision-questions.md). Show the supported products, rates, calculations and open conditions, recommend a defensible option and ask the user for the exact remaining decision.
 
-- A three-stall offering because two-stall inventory was unavailable, while the SOW specified two stalls. Written DPS clarification remained outstanding.
-- $3,995 per month for rental.
-- $600 pumping plus $700 cleaning = $1,300 **per service visit**.
-- A fixed monthly cleaning/pumping rate of **$2,816.67**, after being shown `$1,300 × 26 ÷ 12` and the possibility of a 27-visit calendar.
-- The same rates for all four renewal years; combined monthly rate **$6,811.67**.
-
-These are project-specific approvals. Do not reuse them as universal rates, assume a three-stall restroom-only model was verified, impose a 26-visit cap, or claim transport/tank package coverage was confirmed. Final model, 110V/20A compatibility, 350-gallon wastewater minimum and additional potable-water package remained checks for that project.
+Do not recover equipment selections, special prices or approvals from another proposal or a historical worked example, including one with the same solicitation number. Only an explicit choice/quote/delegation supplied for the current task, or an earlier decision the user explicitly carries into it, overrides the matching source rates. Retain that authority in this task's working notes rather than adding contract-specific approvals to the reusable skill.

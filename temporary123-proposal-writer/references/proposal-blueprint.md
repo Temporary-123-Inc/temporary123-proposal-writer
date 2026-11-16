@@ -2,7 +2,7 @@
 
 This writing guide distills the previously reviewed Temporary 123 proposal for temporary living quarters, showers, and heads: https://docs.google.com/document/d/1rG5FWpSKjbR6IkqA11jhGdmRs_BpE-Ac4OQ7bB4EYzQ/edit . The complete inspected snapshot is `assets/reference-export.pdf`. Use the guide to write a fresh draft from the user's new project link. The old Google Doc does not need to be opened or copied. Follow the new solicitation's required structure when it differs.
 
-Apply the source-use and missing-information rules in `SKILL.md` throughout this blueprint. Use existing company, pricing and past-performance records before asking questions. Resolve required missing facts with the user before delivery; placeholders are permitted in a delivered document only when the user explicitly requests an incomplete draft. Keep completion instructions outside the buyer-facing proposal. Normal unsigned execution lines remain appropriate.
+Apply the source-use and missing-information rules in `SKILL.md` throughout this blueprint. Use existing company, pricing and past-performance records before asking questions, and raise unresolved choices with sourced options and recommendations. Deliver a substantive Word draft with precise descriptive placeholders for remaining required facts; apply native red highlighting only to each replacement span. Keep detailed completion instructions outside the buyer-facing proposal, and enumerate every field/action with rendered pages and needed information in the closing delivery report and readiness assessment. Normal unsigned execution lines remain appropriate and must be reported when signing is required.
 
 ## Front matter
 

@@ -2,7 +2,7 @@
 
 Apply this at [workflow step 11](proposal-workflow.md), after writing and checking the actual proposal. The final chat response must use these four labels, in this order: **Link**, **What to update**, **Readiness**, **Winning chances and improvements**. Keep this report, source-status tables and internal competitiveness analysis outside the buyer-facing Word document.
 
-This report does not replace early questions or authorize silently delivering an incomplete proposal. Resolve required factual/pricing answers before delivery unless the user explicitly requests an incomplete draft. Normal unsigned execution fields are allowed in drafts, but required signatures remain unfinished actions for submission readiness.
+Deliver the substantive Word draft even when required factual/pricing answers or selections remain unresolved. Ask early with [evidence and recommendations](decision-questions.md), populate supported content, and make the remaining replacement fields visible with **native red text highlighting** on each exact placeholder span. No separate incomplete-draft permission is needed. This closing report must disclose every gap and distinguish draft delivery from submission readiness. Normal unsigned execution fields are allowed in drafts, but required signatures remain unfinished actions for submission readiness.
 
 ## 1. Link
 
@@ -20,7 +20,7 @@ If no permitted route can upload or grant/verify public access, provide the actu
 
 Audit the exact final Word version after layout is stable. Use the [Word QA workflow](word-workflow.md) and [structural inspector](../scripts/inspect_proposal.py), then inspect/search the matching final rendered PDF/pages to obtain locations. DOCX paragraph indexes and contents entries do not establish page numbers.
 
-Scan body text, native tables, headers/footers, text boxes and content controls for bracketed fields, `TBD`, `TODO`, insert/confirm prompts, blank required prices, unfinished mandatory fields and execution lines. Review the requirements/source record too: an absent required attachment or unresolved material requirement is still an action even without a visible placeholder. Do not create placeholders merely to populate this report, delete required information to hide gaps, or claim a missing attachment is enclosed.
+Scan body text, native tables, headers/footers, text boxes and content controls for bracketed fields, `TBD`, `TODO`, insert/confirm prompts, blank required prices, unfinished mandatory fields and execution lines. Use descriptive replacement fields such as `[CONFIRM: unit electrical rating]` rather than unexplained blanks. Verify native red highlighting covers the exact placeholder text, including repeated occurrences, without coloring surrounding final prose; red font alone is insufficient. Review the requirements/source record too: an absent required attachment or unresolved material requirement is still an action even without a visible placeholder. Do not create placeholders merely to populate this report, delete required information to hide gaps, or claim a missing attachment is enclosed.
 
 List all actual occurrences in this table:
 
@@ -47,7 +47,7 @@ Use the actual solicitation's requirements/source matrix. Optional make/model, d
 
 Within each area, award its weight in proportion to verified passed applicable checks. Partial work earns credit only for subchecks actually passed; unknown or unverified checks do not count as passed. Omit genuinely inapplicable areas and rescale the remaining weights to 100. Round down to a whole percentage, with a minimum display of 1. State the basis briefly and keep the detailed calculation in working notes.
 
-Use 100% only when all applicable submission checks are verified complete. Any required missing answer, unsigned required certification, absent mandatory attachment, unresolved material deviation or unverified required layout keeps the score below 100 and the status **Not ready for submission**, regardless of a high completion score. Do not waive a blocker because the prose is polished, a price is approved or the file was generated successfully. Normal unsigned draft execution lines must be listed as remaining execution when the buyer requires signing before submission.
+Use 100% only when all applicable submission checks are verified complete. Any required missing answer, unsigned required certification, absent mandatory attachment, unresolved material deviation or unverified required layout keeps the score below 100 and the status **Not ready for submission**, regardless of a high completion score. These are submission blockers, not reasons to withhold the Word draft. Do not waive a blocker because the prose is polished, a price is approved or the file was generated successfully. Normal unsigned draft execution lines must be listed as remaining execution when the buyer requires signing before submission.
 
 Include the existing compact resource-status table here, or a verified link to a separate internal source-status note, preserving the user's resource-tracking workflow within these four main report sections. Report public-link status in **Link**; sharing convenience is not a buyer evaluation criterion unless the solicitation makes it one.
 

@@ -2,7 +2,7 @@
 
 ## Choose one runtime artifact
 
-Clone [the canonical repository](https://github.com/Temporary-123-Inc/temporary123-proposal-writer) for maintenance or local installation. Build the portable upload artifact from the repository root:
+Obtain the [latest released skill ZIP](https://github.com/Temporary-123-Inc/temporary123-proposal-writer/releases/latest/download/temporary123-proposal-writer.zip) and [checksum](https://github.com/Temporary-123-Inc/temporary123-proposal-writer/releases/latest/download/temporary123-proposal-writer.zip.sha256), or clone [the canonical repository](https://github.com/Temporary-123-Inc/temporary123-proposal-writer) for maintenance or local installation. Build the portable upload artifact from the repository root:
 
 ```sh
 python tools/manage.py validate
@@ -48,9 +48,9 @@ See Claude Code's [skills documentation](https://code.claude.com/docs/en/skills)
 1. Build or obtain `dist/temporary123-proposal-writer.zip` from the canonical repository.
 2. Enable code execution and file creation in the Claude environment, then upload the ZIP through its custom-skills interface.
 3. Enable the skill and connect or provide access to the opportunity and company sources needed for the requested proposal.
-4. Start a chat, provide the solicitation/project link, and request the proposal. Follow any required-input questions raised by the shared workflow.
+4. Start a chat, provide the solicitation/project link, and request the proposal. The worker asks unresolved questions with recommendations and still delivers a Word draft with red-highlighted placeholders and a page-specific missing-information/readiness report. Answer those questions to complete the draft.
 
-The upload supplies instructions and bundled files. It does not connect private Drive accounts, supply connector credentials, create public sharing permissions, or install missing system tools. Check the current [custom-skills upload guide](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) and [Claude skills guide](https://platform.claude.com/docs/en/build-with-claude/skills-guide) for interface and API requirements.
+When the repository changes, obtain/build the new ZIP and replace the uploaded skill; an existing upload does not refresh from Git automatically. The upload supplies instructions and bundled files. It does not connect private Drive accounts, supply connector credentials, create public sharing permissions, or install missing system tools. Check the current [custom-skills upload guide](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) and [Claude skills guide](https://platform.claude.com/docs/en/build-with-claude/skills-guide) for interface and API requirements.
 
 ## Runtime prerequisites
 

@@ -20,13 +20,17 @@ python -m unittest discover -s tests -v
 python tools/manage.py package --output dist/temporary123-proposal-writer.zip
 ```
 
-The ZIP contains one `temporary123-proposal-writer/` folder. Use that same artifact for either platform; no platform-specific release copy is needed.
+The ZIP contains one `temporary123-proposal-writer/` folder. Use that same artifact for either platform; no platform-specific release copy is needed. Download the [latest skill ZIP](https://github.com/Temporary-123-Inc/temporary123-proposal-writer/releases/latest/download/temporary123-proposal-writer.zip) and its [SHA-256 checksum](https://github.com/Temporary-123-Inc/temporary123-proposal-writer/releases/latest/download/temporary123-proposal-writer.zip.sha256) from the current release, or build from the latest checkout. Updating the repository does not update a ZIP already uploaded to another worker; replace that worker's installed/uploaded skill to use the changes.
 
 ## Use the skill
 
 After installation, invoke `$temporary123-proposal-writer` in Codex or `/temporary123-proposal-writer` in Claude Code, then provide the opportunity link. In Claude.ai, enable the uploaded skill and provide the link in a chat with the necessary code-execution and source access.
 
 Read the [canonical workflow](temporary123-proposal-writer/SKILL.md) for source checks, required missing information, Word layout review, pricing support, and the final delivery report. It specifies **Link**, **What to update**, **Readiness**, and **Winning chances and improvements**. The generated Word output's public Viewer link must be verified before it is reported as publicly accessible; source files and folders retain their permissions.
+
+For unresolved inputs, the skill [asks with evidence and recommendations](temporary123-proposal-writer/references/decision-questions.md): it shows the requirement, resources already checked, supported options/costs, a reasoned recommendation and the exact decision or evidence needed. It does not carry another proposal's choices or special approvals into the current task. Existing company facts, standing pricing policies, past-performance evidence and the designated cover-letter style keep their intended uses.
+
+Pending answers do not block the Word draft. Remaining required fields use descriptive placeholders with red highlighting on only the text to replace. The closing report lists all missing fields/actions with rendered page locations, needed content and responsible sources, then gives submission readiness and winning analysis. A delivered draft with unresolved mandatory items is not ready for submission.
 
 ## Included sources and limits
 

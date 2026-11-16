@@ -10,6 +10,8 @@ import re
 import sys
 from pathlib import Path
 
+from draft_fields import TEXT_PART, highlight_fields
+
 
 SCHEMA = {
     "required": ["title", "cover_letter", "sections"],
@@ -44,7 +46,7 @@ SCHEMA = {
             {"type": "page_break"},
         ],
     }],
-    "notes": "Write full content first. TOC pages must be supplied from actual rendered pagination; they are not inferred. All measurements are inches except font sizes and paragraph spacing, which are points.",
+    "notes": "Write full supported content first. Use descriptive [CONFIRM: missing fact] or [INSERT: required value] fields for unresolved inputs; the builder gives only those spans native red highlighting. TBD, TODO and {{fields}} are also recognized. TOC pages must come from actual rendered pagination, not inference. Measurements are inches except font sizes and paragraph spacing in points.",
 }
 
 
@@ -255,7 +257,7 @@ def build(data, output, base):
             raise ValueError("cover letter contains an empty paragraph")
         paragraph(text)
     paragraph(str(letter.get("closing", "Respectfully,")))
-    paragraph(lines(letter.get("signer", "[Authorized signature and signatory details]")))
+    paragraph(lines(letter.get("signer", "[INSERT: authorized signatory details]")))
 
     toc = data.get("toc")
     if toc:
@@ -303,9 +305,13 @@ def build(data, output, base):
     missing = set(toc_targets) - used_bookmarks
     if missing:
         raise ValueError("TOC targets do not exist: " + ", ".join(sorted(missing)))
+    highlighted = 0
+    for part in doc.part.package.parts:
+        if TEXT_PART.fullmatch(str(part.partname).lstrip("/")) and hasattr(part, "element"):
+            highlighted += highlight_fields(part.element)
     output.parent.mkdir(parents=True, exist_ok=True)
     doc.save(output)
-    return {"output": str(output), "tables": len(doc.tables), "images": len(doc.inline_shapes), "bookmarks": len(used_bookmarks), "layout_verified": False}
+    return {"output": str(output), "tables": len(doc.tables), "images": len(doc.inline_shapes), "bookmarks": len(used_bookmarks), "red_highlighted_draft_fields": highlighted, "layout_verified": False}
 
 
 def main():

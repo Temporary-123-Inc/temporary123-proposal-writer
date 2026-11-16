@@ -11,6 +11,8 @@ from pathlib import Path
 from zipfile import BadZipFile, ZipFile
 from xml.etree import ElementTree as ET
 
+from draft_fields import TEXT_PART, inspect_fields
+
 
 NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
 
@@ -23,13 +25,14 @@ def inspect(path):
             raise ValueError("ZIP CRC failed: " + bad)
         root = ET.fromstring(archive.read("word/document.xml"))
         footer_codes = " ".join(archive.read(name).decode("utf-8") for name in archive.namelist() if re.fullmatch(r"word/footer\d+\.xml", name))
+        occurrences = [field for name in sorted(archive.namelist()) if TEXT_PART.fullmatch(name)
+                       for field in inspect_fields(ET.fromstring(archive.read(name)), name)]
     doc = Document(path)
     paragraphs = [p.text for p in doc.paragraphs]
-    cell_text = [cell.text for table in doc.tables for row in table.rows for cell in row.cells]
-    body_text = "\n".join(paragraphs + cell_text)
     bookmarks = [element.get("{" + NS["w"] + "}name") for element in root.findall(".//w:bookmarkStart", NS)]
     links = [element.get("{" + NS["w"] + "}anchor") for element in root.findall(".//w:hyperlink", NS) if element.get("{" + NS["w"] + "}anchor")]
-    fields = sorted(set(re.findall(r"\[[^\[\]\r\n]{1,300}\]|\bTBD\b|\{\{[^{}\r\n]{1,100}\}\}", body_text, re.I)))
+    fields = sorted({field["field"] for field in occurrences})
+    highlight_gaps = [field for field in occurrences if not field["red_highlighted"]]
     errors = []
     unresolved_links = sorted(set(links) - set(bookmarks))
     if unresolved_links:
@@ -46,9 +49,11 @@ def inspect(path):
         "cover_letter_bookmark": "CoverLetter" in bookmarks,
         "page_number_field": bool(re.search(r"\bPAGE\b", footer_codes)),
         "page_sizes": sizes, "draft_fields": fields,
+        "draft_field_occurrences": occurrences, "draft_fields_without_red_highlight": highlight_gaps,
         "headings": [p.text for p in doc.paragraphs if p.style and p.style.name.startswith("Heading")],
-        "errors": errors, "visual_layout_verified": False,
-        "next_step": "Render and inspect every page; verify contents pagination and source support separately.",
+        "errors": errors, "warnings": (["Some draft fields need red highlighting before delivery"] if highlight_gaps else []),
+        "visual_layout_verified": False,
+        "next_step": "Render and inspect every page, repair any highlight gaps, and list all remaining fields/pages in the delivery report. Draft fields do not block draft delivery; they do block submission readiness.",
     }
 
 
