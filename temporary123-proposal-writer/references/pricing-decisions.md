@@ -2,6 +2,14 @@
 
 Read the main pricing/source guide for book rates. Use these additional rules when billing units or offered equipment differ from the solicitation.
 
+## Standing basis for rentals with no duration
+
+On **November 16, 2026**, the user established that a rental amount with no stated duration is a **flat monthly minimum**: a $200 item costs $200 for a continuous rental of one day, one week or up to one month. Apply this to rental items, including rental-with-service offers, while excluding standalone services and one-time charges. Explicitly stated rental periods and current project-approved prices retain their own basis.
+
+Use one monthly charge for a continuous rental within one month, without daily proration or multiplying the amount by consecutive days/weeks. Four full billed months use four monthly charges. Use the actual contract billing calendar for month boundaries; do not invent a 28/30-day month or an extension/renewal rule. Preserve the PDF's unstated source period separately from this user-approved basis. It is no longer an unanswered rental-period question.
+
+The rental-with-service period is resolved, but its included service work/visit count is not established by that clarification. Retain included service, avoid double charging, and apply the standing service recommendation below only when contract frequency is silent.
+
 ## Standing service basis and frequency
 
 The user approved this standing rule on **November 15, 2026**: standalone service prices are **per visit**; recommend **two visits per month** when the contract does not state frequency. The [rental pricing guide](rental-pricing-guide.md) and [catalog](../assets/pricing/rate-catalog.json) record that authority separately from PDF rate provenance.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "currency": "USD",
-  "updated_on": "2026-11-15",
+  "updated_on": "2026-11-16",
   "source": {
     "original_filename": "Temporary123_Rental_Price_Book (8) 1.pdf",
     "original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea",
@@ -24,12 +24,14 @@
       "maximum_days": 3,
       "unit": "one event rental covering 1-3 days",
       "published_relation_to_week": 0.8,
-      "daily_proration_allowed": false
+      "daily_proration_allowed": false,
+      "scope": "Published explicit event rates; items with rental_billing.basis monthly_minimum use their approved flat monthly charge instead of the 20% event discount."
     },
     "week": {
       "key": "week",
       "unit": "one rental week",
-      "daily_proration_allowed": false
+      "daily_proration_allowed": false,
+      "scope": "Published explicit weekly rates; monthly-minimum items use one flat monthly charge for a continuous rental up to one month."
     },
     "month": {
       "key": "month",
@@ -48,7 +50,7 @@
       "not_equivalent_to_every_two_weeks": true,
       "does_not_create_new_service_prices": true
     },
-    "unknown_price": "Return supported subtotals and missing component(s); never zero for unknown or assign a rental period silently.",
+    "unknown_price": "Return supported subtotals and missing component(s); never zero for unknown. An unstated rental duration is resolved by durationless_rental_default, not an unanswered pricing gap.",
     "product_identity": "A priced product family may be recommended without a physical inventory ItemID. Do not invent make/model or require optional model fields absent a buyer requirement. Validate material compliance and actual availability separately.",
     "transport_three_month_boundary": "Exactly three months requires an approved transport rate.",
     "do_not_derive": [
@@ -57,7 +59,19 @@
       "Standalone service rates by subtracting portable with/without-service prices",
       "Historical project prices as universal rates",
       "Tax, escalation, cancellation or discount policies not supplied"
-    ]
+    ],
+    "durationless_rental_default": {
+      "basis": "monthly_minimum",
+      "minimum_months": 1,
+      "shorter_rentals_same_price": true,
+      "authority": "User clarification in Proposal Writer chat, 2026-11-16",
+      "scope": "Rental prices with no stated duration, including rental-with-service offers. Excludes standalone services and one-time charges; preserves explicitly stated rental periods and current project-approved prices.",
+      "example": "A published $200 rental costs $200 for one continuous rental of one day, one week or up to one month.",
+      "continuous_weeks_within_month_are_not_separate_charges": true,
+      "daily_proration_allowed": false,
+      "billing_month_calendar": "Use actual contract billing calendar; do not assume a fixed number of days per month.",
+      "longer_rentals": "Use actual whole billed months; resolve unestablished renewal/partial-month boundaries from the contract or project-approved basis."
+    }
   },
   "items": [
     {
@@ -551,24 +565,22 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 200,
+        "week": 200,
+        "month": 200
       },
       "source_pages": [
         8
       ],
       "currency": "USD",
-      "unresolved_fields": [
-        "rental_billing_period"
-      ],
+      "unresolved_fields": [],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 200,
       "published_billing_period": null,
       "published_estimate": false,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "Unspecified on page 8",
       "published_family_features": [
         "Non-flushing toilet",
@@ -577,10 +589,18 @@
       ],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "portable-standard-with-service",
@@ -594,33 +614,40 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 200,
+        "week": 200,
+        "month": 200
       },
       "source_pages": [
         7
       ],
       "currency": "USD",
       "unresolved_fields": [
-        "rental_billing_period",
         "included_service_scope"
       ],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published_estimate",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 200,
       "published_billing_period": null,
       "published_estimate": true,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "With service; exact included work unspecified",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "portable-deluxe-without-service",
@@ -634,24 +661,22 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 350,
+        "week": 350,
+        "month": 350
       },
       "source_pages": [
         8
       ],
       "currency": "USD",
-      "unresolved_fields": [
-        "rental_billing_period"
-      ],
+      "unresolved_fields": [],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 350,
       "published_billing_period": null,
       "published_estimate": false,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "Without service",
       "published_family_features": [
         "Flushable toilet with concealed waste",
@@ -660,10 +685,18 @@
       ],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "portable-deluxe-with-service",
@@ -677,33 +710,40 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 450,
+        "week": 450,
+        "month": 450
       },
       "source_pages": [
         8
       ],
       "currency": "USD",
       "unresolved_fields": [
-        "rental_billing_period",
         "included_service_scope"
       ],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 450,
       "published_billing_period": null,
       "published_estimate": false,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "With service; exact included work unspecified",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "portable-ada-without-service",
@@ -717,32 +757,38 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 500,
+        "week": 500,
+        "month": 500
       },
       "source_pages": [
         8
       ],
       "currency": "USD",
-      "unresolved_fields": [
-        "rental_billing_period"
-      ],
+      "unresolved_fields": [],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 500,
       "published_billing_period": null,
       "published_estimate": false,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "Without service",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "portable-ada-with-service",
@@ -756,33 +802,40 @@
         "portable restroom"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 600,
+        "week": 600,
+        "month": 600
       },
       "source_pages": [
         8
       ],
       "currency": "USD",
       "unresolved_fields": [
-        "rental_billing_period",
         "included_service_scope"
       ],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 600,
       "published_billing_period": null,
       "published_estimate": false,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "With service; exact included work unspecified",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "handwash-double-without-service",
@@ -795,32 +848,38 @@
         "handwash station"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 90,
+        "week": 90,
+        "month": 90
       },
       "source_pages": [
         7
       ],
       "currency": "USD",
-      "unresolved_fields": [
-        "rental_billing_period"
-      ],
+      "unresolved_fields": [],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published_estimate",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 90,
       "published_billing_period": null,
       "published_estimate": true,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "Without service",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "handwash-double-with-service",
@@ -833,33 +892,40 @@
         "handwash station"
       ],
       "rates": {
-        "event_1_3_days": null,
-        "week": null,
-        "month": null
+        "event_1_3_days": 140,
+        "week": 140,
+        "month": 140
       },
       "source_pages": [
         7
       ],
       "currency": "USD",
       "unresolved_fields": [
-        "rental_billing_period",
         "included_service_scope"
       ],
       "includes_item_ids": [],
-      "source_status": "billing_period_unconfirmed",
-      "rate_basis_authority": "price_book",
+      "source_status": "published_estimate",
+      "rate_basis_authority": "Price-book amount; flat monthly-minimum period approved by user clarification, 2026-11-16.",
       "published_amount": 140,
       "published_billing_period": null,
       "published_estimate": true,
-      "rate_scope": "per portable unit; rental period unresolved",
+      "rate_scope": "Per rental unit per billed month, with one full monthly charge for any continuous rental from one day through one month.",
       "service_inclusion": "With service; exact included work unspecified",
       "published_family_features": [],
       "qualifications": [
         "Published features vary by unit. Product labels do not prove exact-model ADA compliance or availability.",
-        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate."
+        "A with-service offering is not a standalone service-visit price. Do not subtract without-service pricing to invent a service rate.",
+        "The same monthly minimum applies to a one-day, one-week or up-to-one-month continuous rental. Do not prorate or multiply it by consecutive days/weeks; preserve actual billed months and any separately approved activation charges."
       ],
       "identity_level": "published_catalog_configuration",
-      "inventory_item_id": null
+      "inventory_item_id": null,
+      "rental_billing": {
+        "basis": "monthly_minimum",
+        "minimum_months": 1,
+        "shorter_rentals_same_price": true,
+        "authority": "User clarification, 2026-11-16",
+        "source_duration_stated": false
+      }
     },
     {
       "id": "pump-restroom-300",
@@ -1457,7 +1523,7 @@
     }
   ],
   "unpriced_required_components": [
-    "Portable rental event/week/month basis until clarified",
+    "PDF-stated portable rental durations; effective monthly-minimum basis is supplied by the user's November 16 clarification",
     "Freestanding portable-unit delivery and pickup",
     "Standalone portable-unit cleaning/restocking price if not included",
     "Taxes and other applicable charges",

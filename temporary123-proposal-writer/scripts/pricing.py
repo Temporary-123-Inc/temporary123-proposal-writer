@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Read the price catalog and calculate explicit, source-traceable quote lines.
 
-This helper never converts days, weeks or months or assigns an unknown rental
-period. Its totals are calculations for the requested lines, not compliance or
-availability confirmations. All dependencies are in Python's standard library.
+This helper uses explicit catalog rates and approved billing metadata without
+prorating or inventing rental periods. Its totals are calculations for requested
+lines, not compliance or availability confirmations. Dependencies are standard
+library only.
 """
 
 import argparse
@@ -78,7 +79,7 @@ def find_items(catalog, query, limit=10):
         "items": [
             {key: item[key] for key in (
                 "id", "name", "family", "kind", "rates", "published_amount",
-                "source_pages", "source_status", "status", "rate_basis_authority", "unresolved_fields"
+                "source_pages", "source_status", "status", "rate_basis_authority", "rental_billing", "unresolved_fields"
             ) if key in item}
             for item in matches[:limit]
         ],
@@ -131,7 +132,7 @@ def calculate_quote(catalog, request):
             "unresolved_fields": deepcopy(item.get("unresolved_fields", [])),
             "includes_item_ids": deepcopy(item.get("includes_item_ids", [])),
         })
-        for source_field in ("rate_basis_authority", "rate_scope", "qualifications"):
+        for source_field in ("rate_basis_authority", "rental_billing", "rate_scope", "qualifications"):
             if source_field in item:
                 result[source_field] = deepcopy(item[source_field])
         if "published_amount" in item:
@@ -162,6 +163,11 @@ def calculate_quote(catalog, request):
                 if "months" in line or "visits" in line:
                     raise ValueError("months/visits may only select counts for a per_visit rate; use explicit periods for other rates")
                 periods = number(line.get("periods", 1), "periods", whole=True)
+                rental_billing = item.get("rental_billing") or {}
+                if rental_billing.get("basis") == "monthly_minimum":
+                    if key in ("event_1_3_days", "week") and periods != 1:
+                        raise ValueError("Monthly-minimum rental uses one flat charge for a continuous rental up to one month; use month with explicit billed periods for longer rentals, or separate lines for distinct bookings")
+                    result["warnings"].append("Flat monthly-minimum rental: one day, one week and any continuous rental up to one month have the same charge; no daily or weekly proration applies")
             result.update({
                 "unit_rate": decimal_text(rate),
                 "periods": decimal_text(periods),

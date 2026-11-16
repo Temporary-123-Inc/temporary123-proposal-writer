@@ -23,7 +23,7 @@ Start with the [rental pricing guide](rental-pricing-guide.md) and [structured r
 | 3-4 | Shower/restroom combination configurations, rates and family descriptions |
 | 5 | Shower-only trailer and event/weekly/monthly rates |
 | 6 | Daily staffing, weekly consumables and monthly bladder/hose rentals |
-| 7-8 | Portable handwashing/restroom offers; rental period remains unconfirmed unless user supplies one |
+| 7-8 | Portable handwashing/restroom offers; source duration unstated, user-approved flat monthly minimum applies |
 | 9 | Capacity-specific pump-out pricing and included restroom pump-out policy |
 | 10-13 | Laundry, kitchen, dishwashing and sleeper event/weekly/monthly rates |
 | 14 | Mobilization, demobilization and transportation |
@@ -36,11 +36,11 @@ Start with the [rental pricing guide](rental-pricing-guide.md) and [structured r
 
 1. Match product family, form, configuration and billing period. Use a listed family when no exact physical inventory entry exists; retain actual source support and verify material compliance/availability separately. Do not add a manufacturer/model/spec-sheet requirement unless the buyer or a real technical decision needs it.
 2. Read the relevant source pages and notes when the normalized entry is unclear, changed or conflicts with another source. The catalog is a lookup aid with provenance, not a live inventory.
-3. Use the published event price for one **1-3-day rental**, weekly price for a rental week, and monthly price for a rental month. Do not derive daily prices, assume a month day count, or apply a generic proration that is not approved.
+3. Preserve explicit event/week/month prices. When a rental amount has no source duration, apply the user's November 16, 2026 **flat monthly minimum**: the same amount covers one day, one week or up to one month of continuous rental. This includes combined rental-with-service offers and excludes standalone services/one-time charges. Do not multiply that amount by consecutive days/weeks, prorate it, or ask again for an unstated rental period. Use actual billed months for longer rentals and the contract billing calendar for boundaries.
 4. The user's November 15, 2026 standing rule treats standalone service prices as **per visit**, with **two visits/month recommended when contract frequency is silent**. Use an explicit contract cycle instead. Monthly service costing is service units x per-visit amount x visits; do not ask again for approval of the standing default. Actual regional capacity and dispatch commitments remain separate facts.
 5. Preserve explicit non-visit bases: staffing per day/person, consumables per week/trailer, bladder rental per month, setup per trailer/event, transport per mile or trailer/direction, and man-camp per person/day.
 6. Do not double-count the 300-gallon restroom pump-out included in the associated shower-bladder service. Count actual service units/events; do not automatically multiply all service by trailer count.
-7. Portable with-service offers on pages 7-8 are combined equipment/service amounts with an unconfirmed rental period, not standalone service visit prices. Do not assign monthly/daily periods or derive service charges by subtraction. Preserve known published amounts outside a final quote until the period is approved.
+7. Portable with-service offers on pages 7-8 are combined equipment/service amounts with the user-approved monthly minimum. Their prices apply equally to one-day, one-week or one-month rentals; they are not standalone service visit prices. Preserve estimate labels and unresolved included service scope. Do not derive standalone service charges by subtraction or charge extra for service already included.
 8. Keep mobilization/demobilization separate from transportation; apply the continuous rental term, actual mileage and per-trailer scope. Exactly three months and freestanding portable transport remain unpriced unless approved.
 9. Preserve published size/capacity distinctions and the 150-person man-camp minimum. Fixture planning allowances are not verified site occupancy. Do not substitute a combination-trailer rate for restroom-only equipment or extrapolate pump prices to unlisted tanks.
 10. Calculate supported lines and subtotals before asking for missing components. Retain the source page, rate key, quantity, periods/visits, arithmetic and assumptions in working notes. Do not replace every price with TBD or use zero for unknown. No tax, escalation, discount, cancellation or overtime calculation policy is invented.

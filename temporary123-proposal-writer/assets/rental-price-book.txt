@@ -9,7 +9,13 @@ Otherwise unspecified stand-alone service charges are per service visit.
 When a contract does not state servicing frequency, recommend two service visits per month as a proposed quote basis. Preserve an explicit contract frequency and use actual visits/dates when known; every 14 days is not twice monthly.
 Keep source rates, user policy, proposed frequency and calculated totals separate. A per-visit rate times two is a derived monthly subtotal, not a published book monthly rate.
 Preserve explicit staffing/day/person, consumables/week/trailer, accessory/month, security/8-hours, mileage/mile and equipment event/weekly/monthly units.
-Do not infer unknown rental periods, taxes, fees, discounts, minimum terms, availability, technical compliance or current registration status.
+Do not infer taxes, fees, discounts, availability, technical compliance or current registration status. For rental periods omitted by the PDF, apply the user clarification below.
+
+
+USER RENTAL-PERIOD CLARIFICATION NOVEMBER 16 2026
+Rental amounts with no stated duration are flat monthly minimums: the same amount covers one continuous rental of one day, one week or up to one month. A $200 amount costs $200 for each alternative. Apply to rental items, including combined rental-with-service offers; exclude standalone services and one-time charges. Explicit rental periods keep their stated basis.
+Do not prorate this minimum or multiply it by consecutive days/weeks within one month. Longer rentals use actual billed months and the contract billing calendar; any unstated renewal/partial-month boundary beyond the first month still needs a project basis.
+The user's clarification supplies the effective rental basis for pages 7-8; the PDF itself does not state that period. Original amount, estimate status and source page remain separate from user authority. Bundled service scope is not established by the rental-period clarification.
 
 
 === PAGE 1 ===
@@ -261,7 +267,7 @@ Government bid training equipment pricing guide; prices are estimates.
 Double-sided handwashing sink: $90 without service; $140 with service.
 Porta-potty: $200 with service, estimate.
 Source asks to confirm pricing and service frequency before quoting; rental duration is not stated.
-The user per-visit rule for otherwise unspecified stand-alone service charges does not invent an equipment rental term for a combined rental-with-service price.
+USER CLARIFICATION NOVEMBER 16 2026: These combined rental-with-service prices use the flat monthly minimum for one day, one week or up to one month. They are not standalone service-visit prices; included service work/visit count remains separate.
 
 === PAGE 8 ===
 < PRICE INDEX

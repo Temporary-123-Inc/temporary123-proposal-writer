@@ -4,10 +4,10 @@ Use this guide and the [structured rate catalog](../assets/pricing/rate-catalog.
 
 ## Billing periods
 
-- **1-3 days:** one event rental covering the complete 1-3-day event. Use the published event price, which is 20% below the weekly rate. It is not a per-day price.
-- **Per week:** price for one rental week. No general daily proration is approved.
-- **Per month:** price for one rental month. Do not silently assume 28 or 30 days or divide by a daily factor. Match the contract billing calendar.
-- A buyer requesting a daily or different billing basis still needs a valid project rate/conversion; preserve all independently supported rates and extensions.
+- **Explicit 1-3-day, weekly and monthly rates:** retain the book's stated periods. Its trailer/container event price covers the complete 1-3-day rental and is 20% below the weekly rate; it is not a per-day price.
+- **Rental price with no stated duration:** under the user's November 16, 2026 standing rule, treat the amount as a **flat monthly minimum**. The same amount covers one continuous rental of one day, one week or up to one month. A $200 item therefore costs $200 for each of those alternatives, not $200 per day or per week. This rule covers rental items and combined rental-with-service offers; it excludes standalone services and one-time charges. Do not ask for the missing source duration again.
+- **Monthly billing:** use the contract's billing calendar rather than assuming 28 or 30 days. For the flat monthly minimum, a two- or three-week continuous rental still uses one monthly charge; four full billed months use four charges. Do not divide the monthly minimum into daily prices. Any unresolved renewal/partial-month boundary beyond the first month needs the actual billing calendar or a project-approved basis.
+- Use explicit contract pricing requirements and current project-approved prices first. If a buyer requires a daily field for a durationless rental, identify the flat charge for a single-day rental and disclose its monthly minimum where permitted; do not imply that multiplying it by consecutive days is valid. For items with explicit event/week/month rates, a different daily basis still needs an approved conversion.
 
 ## Equipment rentals
 
@@ -32,22 +32,22 @@ Each amount below is per rental unit. Rental rows do not themselves establish cl
 
 ## Portable restrooms and handwashing
 
-The source lists these equipment offers but leaves their rental period unstated. Keep the amounts visible in a comparison; do not assign them to the event, weekly or monthly columns without an approved period. A missing physical inventory ItemID does not prevent recommending the named product family.
+The PDF leaves these rental periods unstated. The user's November 16, 2026 clarification supplies the approved monthly-minimum basis, so all three duration columns now show the same amount. The one-day price is also that amount. Preserve the PDF amount/page as source evidence and record the user as authority for the period. A missing physical inventory ItemID does not prevent recommending the named product family.
 
 | Product offer | Published amount | 1-3 days | Per week | Per month | Source page |
-|---|---:|---|---|---|---|
-| Standard portable restroom | $200 | Unconfirmed | Unconfirmed | Unconfirmed | 8 |
-| Standard porta-potty with service estimate | $200 | Unconfirmed | Unconfirmed | Unconfirmed | 7 |
-| Deluxe portable restroom without service | $350 | Unconfirmed | Unconfirmed | Unconfirmed | 8 |
-| Deluxe portable restroom with service | $450 | Unconfirmed | Unconfirmed | Unconfirmed | 8 |
-| ADA portable restroom without service | $500 | Unconfirmed | Unconfirmed | Unconfirmed | 8 |
-| ADA portable restroom with service | $600 | Unconfirmed | Unconfirmed | Unconfirmed | 8 |
-| Double-sided portable handwashing station without service | $90 | Unconfirmed | Unconfirmed | Unconfirmed | 7 |
-| Double-sided portable handwashing station with service | $140 | Unconfirmed | Unconfirmed | Unconfirmed | 7 |
+|---|---:|---:|---:|---:|---|
+| Standard portable restroom | $200 | $200 | $200 | $200 | 8 |
+| Standard porta-potty with service estimate | $200 | $200 | $200 | $200 | 7 |
+| Deluxe portable restroom without service | $350 | $350 | $350 | $350 | 8 |
+| Deluxe portable restroom with service | $450 | $450 | $450 | $450 | 8 |
+| ADA portable restroom without service | $500 | $500 | $500 | $500 | 8 |
+| ADA portable restroom with service | $600 | $600 | $600 | $600 | 8 |
+| Double-sided portable handwashing station without service | $90 | $90 | $90 | $90 | 7 |
+| Double-sided portable handwashing station with service | $140 | $140 | $140 | $140 | 7 |
 
-Page 7 amounts are estimates. Page 8 says features vary by unit and duration/service frequency should be confirmed. Standard-family features are a non-flushing toilet, sanitizer dispenser and basic interior; deluxe-family features are a flushable concealed-waste toilet, built-in handwash, mirror, shelf and coat hooks. These are family descriptions, not exact-model compliance evidence.
+Page 7 amounts remain estimates. Page 8 says features vary by unit and duration/service frequency should be confirmed; the user has now resolved the rental-duration basis. Included service scope and any required frequency still need to match the offer and contract. Standard-family features are a non-flushing toilet, sanitizer dispenser and basic interior; deluxe-family features are a flushable concealed-waste toilet, built-in handwash, mirror, shelf and coat hooks. These are family descriptions, not exact-model compliance evidence.
 
-**With-service amounts are equipment/service offerings.** The new service-visit default does not turn a whole $140 handwash offering into a $140 standalone visit or establish a monthly rental. Do not subtract the with/without-service amounts to invent service-only rates. Do not add separately priced visits on top of included service without establishing what the offer includes.
+**With-service amounts are monthly-minimum equipment/service offerings.** A $140 handwash offering is $140 for a one-day, one-week or one-month rental under the user rule; it is not a $140 standalone service visit. Do not subtract the with/without-service amounts to invent service-only rates. Do not add separately priced visits on top of included service without establishing what the offer includes. Recommend two visits/month when the contract is silent, without claiming the bundled amount covers an unstated number of visits.
 
 ## Service visit prices and recommended frequency
 
@@ -109,7 +109,7 @@ Confirm the actual package components, staffing, logistics and operating respons
 1. Use a buyer-specified equipment mix directly when suitable. Match catalog family, form, length, fixture/capacity and accessibility; consult inventory for exact asset evidence when material. Do not introduce required manufacturer/model/spec-sheet fields absent a buyer requirement or a real compliance need.
 2. Show a known-rates/options table before asking questions: offered product, quantity, relevant rate/billing unit, supported extension, known service/logistics and actual unresolved costs. Recommend the defensible mix. Do not pad the comparison with unsuitable alternatives.
 3. Keep published product descriptions, physical inventory identities, rental rates, service rates and current availability separate. Do not substitute a shower/restroom combination rate for a restroom-only trailer.
-4. Compute rental as quantity x matching unit rate x rental periods. Compute service as actual service units x per-visit price x visits; use the two-visits/month recommendation only if the contract is silent. Add only applicable supported one-time and support charges.
+4. Compute rental as quantity x matching unit rate x billed rental periods. For a rental with no source duration, use one monthly-minimum charge for a continuous rental up to one month, not one charge for each day/week within that month. Compute service as actual service units x per-visit price x visits; use the two-visits/month recommendation only if the contract is silent. Add only applicable supported one-time and support charges.
 5. Return a supported subtotal and list missing components when a complete total is unavailable. Do not replace every known number with TBD or enter zero for unknown. A conditional planning scenario must state its unapproved assumption and stay outside a final buyer quote unless permitted.
 6. Use the current project-approved quote over conflicting catalog entries, retaining an approval/source record. Do not reuse historical project overrides as global rates.
 
@@ -132,6 +132,8 @@ python scripts/pricing.py quote --input /absolute/path/quote-request.json
 ```
 
 A quote request has `lines` containing `item_id`, `rate_key`, `quantity` and `periods`. A `per_visit` line uses explicit `visits`, or `months` to apply the recommended two visits/month when silent. Use `coverage_group` to identify a shared service event/system so included pump-out is not billed twice. Preserve the helper's incomplete status and assumptions in the working cost record. Read the helper help for its exact input checks.
+
+For a monthly-minimum item, use `event_1_3_days` with `periods: 1` for a single-day/1-3-day rental, `week` with `periods: 1` for one week, or `month` with `periods: 1` for any continuous rental up to one month. These return the same amount. Use `month` with the actual whole billed-month count for longer rentals. The helper rejects repeated event/week periods for these items to prevent charging the monthly amount repeatedly within a month. Separate activations or deliveries need their actual project billing basis.
 
 Example monthly costing for one 13 ft three-stall shower/restroom combination plus one separately required 300-gallon restroom tank service: rental $3,995 + 2 visits x $600 = $5,195/month before transport/setup and other applicable costs. This example is valid only for that actual configuration/service scope. If the same restroom tank is included with a shower-bladder visit, do not add the $600 visit again.
 

@@ -70,11 +70,11 @@
     "images/restroom-urinal-interior.png": "a2cf4e17f7f49c03e7f7ffdb4b2907bd9485a2698893c2f9674df3937f3e9552",
     "inventory/product-specifications.json": "309f7a95d0eb1215b670b1356cbe17dbc98b0ba619b66e5c7b873504d9d1a9ec",
     "inventory/temporary123-inventory-and-specifications.xlsx": "62006b7f894c3ae9f2d5cb436819efb86851dc64f7519860535fe10d2179ec37",
-    "pricing/rate-catalog.json": "139745d5bf77bd8681b4bc7d63c6bffcdeeff7e01ee90d3cd5eae1efcb21a79f",
+    "pricing/rate-catalog.json": "f82a4bb5636c9bb3e42805d07490e99287b5ed99408944b19025ef4f77485a87",
     "reference-export.pdf": "a49c79efbb1b5b9219e1285bf9f901eadf850deb7b878e7942fced62107b6116",
     "reference.png": "e1a73d22fbb497fd21a57dbecbe8f42b20a950169d1a271d7488e4ca9a578775",
     "rental-price-book-reading-copy.pdf": "3cfb0bbb6025a6004c547160bdcf077eb935df405d70f9d02c6c0c03618d153d",
-    "rental-price-book.txt": "a42eaac6f4d413ddee4e8ac8ad327a94a8e7da5c6021370e6f55f081f94f83e0",
+    "rental-price-book.txt": "10979e89cd82207edf4e94cccb6370685b046ec2a3de722ebf550d975b94dd76",
     "source-proposal.docx": "515a091ba28a1febef17aaf25f3a478305cafaf6d87243b74b417a4adcb9b6a8"
   },
   "inventory": {
@@ -105,7 +105,7 @@
     "transformation": "Sanitized current-source derivative. All19page positions retained; native extracted text on all18non17pages matches original. Original17image/resources excluded, not covered by a visual overlay.20RGBimages JPEGquality90 at original dimensions;6alphaimages retained; safe internal/external links and bookmarks rebuilt. No sensitive source17values retained.",
     "source_original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea"
   },
-  "updated_on": "2026-11-15",
+  "updated_on": "2026-11-16",
   "current_pricebook_source": {
     "original_filename": "Temporary123_Rental_Price_Book (8) 1.pdf",
     "original_sha256": "641fb3b6f472f125fcdd36b14aef5c16db2e8eede06d560e1643d0bcaacbd4ea",
@@ -124,12 +124,12 @@
   },
   "pricebook_text": {
     "asset": "rental-price-book.txt",
-    "sha256": "a42eaac6f4d413ddee4e8ac8ad327a94a8e7da5c6021370e6f55f081f94f83e0",
+    "sha256": "10979e89cd82207edf4e94cccb6370685b046ec2a3de722ebf550d975b94dd76",
     "scope": "Sanitized extraction plus manually verified image-page pricing, service, staffing, transport and personnel/business-source transcriptions. No tax or SSN values."
   },
   "normalized_pricing": {
     "asset": "pricing/rate-catalog.json",
-    "sha256": "139745d5bf77bd8681b4bc7d63c6bffcdeeff7e01ee90d3cd5eae1efcb21a79f",
+    "sha256": "f82a4bb5636c9bb3e42805d07490e99287b5ed99408944b19025ef4f77485a87",
     "schema_version": 1,
     "item_count": 45,
     "guide": "references/rental-pricing-guide.md",
@@ -143,6 +143,24 @@
       "explicit_nonvisit_units_preserved": true,
       "authority": "User instruction in Proposal Writer chat; not attributed to the PDF."
     },
-    "unresolved": "Portable restroom/handwash rental periods remain unassigned until user supplies an approved basis; standalone service basis/frequency does not resolve an equipment rental period."
+    "unresolved": "Rental periods omitted by the PDF are resolved by the user-approved flat monthly minimum. Included service scope, missing service/logistics prices and unestablished renewal/partial-month boundaries remain separate project checks.",
+    "rental_period_user_override": {
+      "date": "2026-11-16",
+      "basis": "monthly_minimum",
+      "shorter_rentals_same_price": true,
+      "scope": "Rental amounts without a stated duration, including rental-with-service; excludes standalone services and one-time charges and preserves explicit periods.",
+      "example": "$200 for one continuous rental of one day, one week or up to one month.",
+      "authority": "User clarification in Proposal Writer chat; not attributed to the PDF.",
+      "affected_item_ids": [
+        "portable-standard",
+        "portable-standard-with-service",
+        "portable-deluxe-without-service",
+        "portable-deluxe-with-service",
+        "portable-ada-without-service",
+        "portable-ada-with-service",
+        "handwash-double-without-service",
+        "handwash-double-with-service"
+      ]
+    }
   }
 }

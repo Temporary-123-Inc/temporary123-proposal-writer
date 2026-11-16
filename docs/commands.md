@@ -63,7 +63,7 @@ The [pricing guide](../temporary123-proposal-writer/references/rental-pricing-gu
 {"lines":[{"item_id":"combo-13ft-3-stall","rate_key":"month","quantity":1,"periods":4},{"item_id":"pump-restroom-300","rate_key":"per_visit","quantity":1,"months":4}]}
 ```
 
-Use actual service units rather than copying trailer count automatically. If the same restroom pump-out is included in a shower-bladder visit, identify the shared `coverage_group` and remove duplicate charges. Do not derive daily or unspecified portable rental periods. Partial months need an explicit approved billing basis or actual visit count.
+Use actual service units rather than copying trailer count automatically. If the same restroom pump-out is included in a shower-bladder visit, identify the shared `coverage_group` and remove duplicate charges. Rental items with no source duration use the approved flat monthly minimum: equal event/week/month amounts, with one charge for any continuous rental from one day through one month. For these items, use `periods: 1` for a short rental (one day uses `event_1_3_days`; two/three weeks use `month`) or `rate_key: "month"` with actual whole billed months for a longer rental. Repeated event/week periods are rejected to avoid overcharging. Explicit trailer/container periods remain unchanged; do not derive daily proration. Month boundaries beyond the initial minimum and partial-month service visits need the actual billing basis or visit count.
 
 ## Look up inventory
 

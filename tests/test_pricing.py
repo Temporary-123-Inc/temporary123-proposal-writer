@@ -26,7 +26,7 @@ def catalog_fixture():
             {"id": "rental", "name": "Example combo", "family": "trailer", "kind": "rental", "aliases": ["three stall"], "rates": {"month": "100.10", "week": "40.00"}, "source_pages": [3]},
             {"id": "pump", "name": "Tank pumping", "kind": "service", "rates": {"per_visit": "60.05"}, "source_pages": [9], "source_status": "published", "rate_basis_authority": "approved per-visit rule"},
             {"id": "bladder", "name": "Bladder pumping including tank", "kind": "service", "rates": {"per_visit": 80}, "includes_item_ids": ["pump"], "source_pages": [9]},
-            {"id": "portable", "name": "Portable estimate", "rates": {"event_1_3_days": None, "week": None, "month": None}, "published_amount": 200, "status": "estimate_period_unconfirmed", "unresolved_fields": ["rental_period"], "source_pages": [7, 8]},
+            {"id": "unknown-rental", "name": "Rental with unsupported billing basis", "rates": {"event_1_3_days": None, "week": None, "month": None}, "published_amount": 200, "status": "estimate_period_unconfirmed", "unresolved_fields": ["rental_period"], "source_pages": [7, 8]},
             {"id": "camp", "name": "Camp per person", "min_people": 150, "rates": {"per_person_day": 175}, "source_pages": [15]},
         ],
     }
@@ -67,7 +67,7 @@ class QuoteTests(unittest.TestCase):
     def test_unknown_period_retains_known_subtotal_without_using_published_amount(self):
         result = self.quote(
             {"item_id": "rental", "rate_key": "week", "quantity": 2},
-            {"item_id": "portable", "rate_key": "month", "quantity": 2, "periods": 4},
+            {"item_id": "unknown-rental", "rate_key": "month", "quantity": 2, "periods": 4},
         )
         self.assertEqual(result["status"], "incomplete")
         self.assertEqual(result["known_subtotal"], "80.00")
@@ -77,8 +77,8 @@ class QuoteTests(unittest.TestCase):
         self.assertEqual(result["lines"][1]["unresolved_fields"], ["rental_period"])
         self.assertEqual(result["priced_line_count"], 1)
 
-    def test_all_unpriced_portable_has_no_zero_subtotal(self):
-        result = self.quote({"item_id": "portable", "rate_key": "month", "quantity": 2, "periods": 4})
+    def test_all_unpriced_rental_has_no_zero_subtotal(self):
+        result = self.quote({"item_id": "unknown-rental", "rate_key": "month", "quantity": 2, "periods": 4})
         self.assertIsNone(result["known_subtotal"])
         self.assertIsNone(result["total"])
         self.assertEqual(result["priced_line_count"], 0)
@@ -194,6 +194,86 @@ class QuoteTests(unittest.TestCase):
         self.assertEqual((self.catalog, request), before)
 
 
+class MonthlyMinimumCatalogTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.catalog = pricing.load_catalog()
+        cls.items = {item["id"]: item for item in cls.catalog["items"]}
+
+    def quote(self, *lines):
+        return pricing.calculate_quote(self.catalog, {"lines": list(lines)})
+
+    def test_all_eight_portable_offers_use_approved_equal_short_and_monthly_prices(self):
+        expected = {
+            "portable-standard": 200,
+            "portable-standard-with-service": 200,
+            "portable-deluxe-without-service": 350,
+            "portable-deluxe-with-service": 450,
+            "portable-ada-without-service": 500,
+            "portable-ada-with-service": 600,
+            "handwash-double-without-service": 90,
+            "handwash-double-with-service": 140,
+        }
+        for item_id, amount in expected.items():
+            with self.subTest(item_id=item_id):
+                item = self.items[item_id]
+                self.assertEqual(item["rates"], {"event_1_3_days": amount, "week": amount, "month": amount})
+                self.assertEqual(item["rental_billing"]["basis"], "monthly_minimum")
+                self.assertFalse(item["rental_billing"]["source_duration_stated"])
+                self.assertNotIn("rental_billing_period", item["unresolved_fields"])
+                totals = []
+                for key in ("event_1_3_days", "week", "month"):
+                    result = self.quote({"item_id": item_id, "rate_key": key, "quantity": 1})
+                    totals.append(result["total"])
+                    self.assertTrue(result["lines"][0]["warnings"])
+                    self.assertEqual(result["lines"][0]["rental_billing"], item["rental_billing"])
+                self.assertEqual(totals, [f"{amount}.00"] * 3)
+
+    def test_monthly_minimum_rejects_repeated_weeks_or_events_for_one_booking(self):
+        for key in ("event_1_3_days", "week"):
+            with self.subTest(rate_key=key):
+                result = self.quote({"item_id": "portable-standard", "rate_key": key, "periods": 2})
+                self.assertIsNone(result["total"])
+                self.assertIsNone(result["known_subtotal"])
+                self.assertIn("one flat charge", result["lines"][0]["issues"][0])
+
+    def test_four_explicit_monthly_periods_use_four_monthly_charges(self):
+        result = self.quote({"item_id": "portable-standard", "rate_key": "month", "quantity": 2, "periods": 4})
+        self.assertEqual(result["total"], "1600.00")
+        self.assertEqual(result["lines"][0]["periods"], "4")
+
+    def test_distinct_short_bookings_may_use_separate_lines(self):
+        result = self.quote(
+            {"item_id": "portable-standard", "rate_key": "week", "coverage_group": "booking-1"},
+            {"item_id": "portable-standard", "rate_key": "week", "coverage_group": "booking-2"},
+        )
+        self.assertEqual(result["total"], "400.00")
+
+    def test_standalone_visits_and_explicit_trailer_periods_are_preserved(self):
+        single = self.quote({"item_id": "pump-restroom-300", "rate_key": "per_visit", "visits": 1})
+        recommended = self.quote({"item_id": "pump-restroom-300", "rate_key": "per_visit", "months": 1})
+        self.assertEqual(single["total"], "600.00")
+        self.assertEqual(recommended["total"], "1200.00")
+        self.assertEqual(recommended["lines"][0]["visits"], 2)
+        for key, total in (("event_1_3_days", "2796.00"), ("week", "3495.00"), ("month", "3995.00")):
+            with self.subTest(rate_key=key):
+                result = self.quote({"item_id": "combo-13ft-3-stall", "rate_key": key})
+                self.assertEqual(result["total"], total)
+                self.assertNotIn("rental_billing", result["lines"][0])
+        repeated_week = self.quote({"item_id": "combo-13ft-3-stall", "rate_key": "week", "periods": 2})
+        self.assertEqual(repeated_week["total"], "6990.00")
+
+    def test_one_day_selection_uses_flat_event_charge_without_a_daily_rate(self):
+        event = self.quote({"item_id": "portable-standard", "rate_key": "event_1_3_days"})
+        unsupported = self.quote({"item_id": "portable-standard", "rate_key": "day", "periods": 7})
+        self.assertEqual(event["total"], "200.00")
+        self.assertIsNone(unsupported["total"])
+
+    def test_find_exposes_monthly_minimum_authority(self):
+        result = pricing.find_items(self.catalog, "portable-standard-with-service", 1)
+        self.assertEqual(result["items"][0]["rental_billing"], self.items["portable-standard-with-service"]["rental_billing"])
+
+
 class CliTests(unittest.TestCase):
     def test_find_show_and_quote_with_fixture_files(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -205,7 +285,7 @@ class CliTests(unittest.TestCase):
                 result = subprocess.run([sys.executable, str(SCRIPT), *args, "--catalog", str(catalog)], capture_output=True, text=True, check=True)
                 return json.loads(result.stdout)
             self.assertEqual(run("find", "--query", "three stall", "--limit", "1")["items"][0]["id"], "rental")
-            self.assertEqual(run("show", "--id", "portable")["published_amount"], 200)
+            self.assertEqual(run("show", "--id", "unknown-rental")["published_amount"], 200)
             self.assertEqual(run("quote", "--input", str(request))["total"], "240.20")
 
     def test_find_limit_is_enforced(self):
